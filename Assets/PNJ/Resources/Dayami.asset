@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Dayami
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 08ae5c8d4a0a64bd3b0685fd24c6864c, type: 3}
+  id: PNJ_DAYAMI
+  nombre: Dayami
+  situaciones:
+  - id: SIT_SEMILLAS
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114270422104910132}
+      actuarAlFinalizar: 1
+      actuacion: DarSemillas
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "\xA1Qu\xE9 alegr\xEDa tu presencia! \xA1Siente la armon\xEDa que nos brinda
+      el respeto hacia todos!"
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: Defecto
+  - audio: {fileID: 0}
+    texto: "Tus acciones no traen armon\xEDa al pueblo."
+  - audio: {fileID: 0}
+    texto: Defecto
+  - audio: {fileID: 0}
+    texto: "Tus acciones han tra\xEDdo armon\xEDa a nuestra comunidad"
+  - audio: {fileID: 0}
+    texto: "Me encanta ser tu amiga, tu presencia trae armon\xEDa a la ciudad"
+  estadoMachismo: 2
+  mensajeMamaTule: 
+--- !u!114 &114270422104910132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Me  contaron que llevas poco tiempo en nuestra comunidad. Bienvenida sea
+      tu presencia.
+  - audio: {fileID: 0}
+    texto: Debes alimentarte para no desmayar. Puedes comer los frutos de tu granja
+      o comprar comida.
+  - audio: {fileID: 0}
+    texto: "Arrastra Frutos a tu est\xF3mago para alimentarte."
+  - audio: {fileID: 0}
+    texto: "Toma. Te regalo unas semillas de ma\xEDz para que plantes en tu granja."

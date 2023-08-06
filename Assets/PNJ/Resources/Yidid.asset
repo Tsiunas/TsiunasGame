@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Yidid
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: c0a5d29587092487e9acbfbba4c337aa, type: 3}
+  id: PNJ_YIDID
+  nombre: Yidid
+  situaciones:
+  - id: SIT_MARIDO
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114211664711365636}
+      - {fileID: 114795874140505572}
+      - {fileID: 114405423399511318}
+      - {fileID: 114026271100412566}
+      - {fileID: 114141275837143054}
+      - {fileID: 114355117810941028}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YIDID_2
+      lineas:
+      - {fileID: 114649886349552236}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YIDID_3
+      lineas:
+      - {fileID: 114292179219814044}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: Debo prepararme para ir a casa a lavar y cocinarle a mi marido
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: Usted no entiende que la mujer debe siempre servir bien a su marido.
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Usted tiene raz\xF3n, la mujer debe servir a su marido a tiempo"
+  - audio: {fileID: 0}
+    texto: "Usted tiene raz\xF3n, la mujer debe servir a su marido a tiempo"
+  estadoMachismo: 0
+  mensajeMamaTule: Ser buena esposa y madre no implica que lleves sola las labores
+    del hogar. Todos los miembros de la familia son responsables de las tareas en
+    el hogar.
+  textoFlamado: "La igualdad comienza en casa. Educo a mis hijos e hijas para ser
+    independientes y que colaboren por igual en las tareas dom\xE9sticas."
+--- !u!114 &114025953585475892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 4CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 1
+  varAModificar: 2
+--- !u!114 &114026271100412566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_ANUAR
+  speeches:
+  - audio: {fileID: 0}
+    texto: Bien Vago que si es tu esposo, no ayuda es en nada.
+--- !u!114 &114064773463887492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_ANUAR
+--- !u!114 &114096229083587372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_ISABEL
+--- !u!114 &114117277762888826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114141275837143054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 5LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_5
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Claro que si, \xE9l ve por mis hijos y trabaja muy fuerte para traer dinero
+      a casa."
+  - audio: {fileID: 0}
+    texto: "\xBFEs mejor que me vaya a atender a mi marido, no cree?"
+--- !u!114 &114160172267959074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 4CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: 
+--- !u!114 &114211664711365636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Debo irme Se\xF1ora Isabel"
+--- !u!114 &114222727312805518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114292179219814044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Est\xE1 bien, me quedo otro rato... pero mi marido se va a poner bravo."
+--- !u!114 &114320408741579508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_ANUAR
+--- !u!114 &114355117810941028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 6LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_6
+  opciones:
+  - sentencia: Es mejor que vaya pronto, las mujeres deben evitarse problemas innecesarios.
+    consecuencias:
+    - {fileID: 114117277762888826}
+    - {fileID: 114320408741579508}
+    - {fileID: 114798633058903530}
+    - {fileID: 114408600806611870}
+    - {fileID: 114657087650048778}
+  - sentencia: Su esposo debe ayudar en casa.
+    consecuencias:
+    - {fileID: 114368273488023432}
+    - {fileID: 114064773463887492}
+    - {fileID: 114096229083587372}
+    - {fileID: 114025953585475892}
+    - {fileID: 114653737107254848}
+  pregunta: "\xBFEs mejor que me vaya a atender a mi marido, no cree?"
+--- !u!114 &114361098933059882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114368273488023432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_YIDID
+--- !u!114 &114377257409936640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114405423399511318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: "No puedo mi esposo llegar\xE1 pronto y a\xFAn no termino de lavar la ropa,
+      adem\xE1s debo prepararle su comida"
+--- !u!114 &114408600806611870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 4CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_YIDID
+--- !u!114 &114446420842376960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114649886349552236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Tiene raz\xF3n, me voy r\xE1pido"
+--- !u!114 &114653737107254848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YIDID_3
+--- !u!114 &114657087650048778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YIDID_2
+--- !u!114 &114795874140505572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_ISABEL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "A\xFAn es temprano y hoy es el cumplea\xF1os de mi hijo, acomp\xE1\xF1anos
+      en la cena"
+--- !u!114 &114798633058903530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_ISABEL

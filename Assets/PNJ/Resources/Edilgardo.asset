@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Edilgardo
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 661c5e3f9aadd4d8e8d79e34b55e2b07, type: 3}
+  id: PNJ_EDILGARDO
+  nombre: Edilgardo
+  situaciones:
+  - id: SIT_
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114527291692872638}
+      - {fileID: 114153615044502100}
+      - {fileID: 114035123794380434}
+      - {fileID: 114126089615788048}
+      - {fileID: 114599074518390644}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_2
+      lineas:
+      - {fileID: 114771737806381116}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_3
+      lineas:
+      - {fileID: 114866730692032956}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: Las buenas mujeres, cumplen todas las obligaciones del hogar.
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "Mire, yo s\xE9 c\xF3mo debe tratar a mi mujer y nadie se debe meter"
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: Usted me cae bien porque no se mete en problemas de pareja
+  - audio: {fileID: 0}
+    texto: Gracias por permitir que sea yo quien trate con mi mujer
+  estadoMachismo: 0
+  mensajeMamaTule: Las familias permanecen unidas por un tejido de acciones que deben
+    partir del respeto y la igualdad. Cada miembro tiene derechos y deberes iguales.
+  textoFlamado: Pagar la cuenta, cuidar mis hijos o arreglar la casa no me hace menos
+    hombre.
+--- !u!114 &114035123794380434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Claro que no! \xBFLlevo todo el dinero a casa y tambi\xE9n debo pagar
+      las cuentas?"
+--- !u!114 &114126089615788048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_SILVANA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Oiga se\xF1ora, se queja usted mucho. Mi marido tampoco me ayuda en casa
+      y yo no protesto."
+--- !u!114 &114153615044502100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_VIVIANA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Yo no puedo hacerlo todo sola, deber\xEDas ayudarme en algo. No cuesta
+      mucho pagar una factura."
+--- !u!114 &114164635335078534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 5CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114437641091837288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_SILVANA
+--- !u!114 &114502387988046612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_3
+--- !u!114 &114509799440429262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 4CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_EDILGARDO
+--- !u!114 &114522788860146426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_SILVANA
+--- !u!114 &114525936858841312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 4CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 0
+  varAModificar: 0
+--- !u!114 &114527291692872638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Las mujeres son las que se encargan de las tareas del hogar, a mi mam\xE1
+      no le pasan estas cosas"
+--- !u!114 &114599074518390644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 5LDO
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  opciones:
+  - sentencia: "Tiene raz\xF3n."
+    consecuencias:
+    - {fileID: 114522788860146426}
+    - {fileID: 114865596909203494}
+    - {fileID: 114868562427385188}
+    - {fileID: 114615243605904066}
+    - {fileID: 114164635335078534}
+  - sentencia: "\xA1Claro que no!"
+    consecuencias:
+    - {fileID: 114437641091837288}
+    - {fileID: 114717941085706604}
+    - {fileID: 114731294577162118}
+    - {fileID: 114509799440429262}
+    - {fileID: 114502387988046612}
+  pregunta: "Oiga se\xF1ora, se queja usted mucho. Mi marido tampoco me ayuda en casa
+    y yo no protesto."
+--- !u!114 &114615243605904066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 4CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_2
+--- !u!114 &114717941085706604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_VIVIANA
+--- !u!114 &114731294577162118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 1
+  varAModificar: 2
+--- !u!114 &114771737806381116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_SILVANA
+  speeches:
+  - audio: {fileID: 0}
+    texto: Las mujeres tenemos doble carga de trabajo y debemos aceptarlo.
+--- !u!114 &114865596909203494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_VIVIANA
+--- !u!114 &114866730692032956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Si ambos trabajamos fuera de casa tambi\xE9n en la casa debemos repartirnos
+      las tareas del hogar."
+--- !u!114 &114868562427385188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_EDILGARDO

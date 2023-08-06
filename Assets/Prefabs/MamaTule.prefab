@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1275181587176404}
+  m_IsPrefabParent: 1
+--- !u!1 &1275181587176404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000841617978024}
+  - component: {fileID: 212832977248465588}
+  - component: {fileID: 61787538148034252}
+  - component: {fileID: 114499267103211888}
+  m_Layer: 0
+  m_Name: MamaTule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1348616983537654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4009903854638104}
+  m_Layer: 0
+  m_Name: Spawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1378457644593656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4659194861862974}
+  m_Layer: 0
+  m_Name: Spawner (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1507192457258362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4228694749312692}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1563304256300388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4566333173808180}
+  m_Layer: 0
+  m_Name: Spawner (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1821206207020464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4323162428865892}
+  m_Layer: 0
+  m_Name: Spawner (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000841617978024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275181587176404}
+  m_LocalRotation: {x: -0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 14.26, z: -6.5}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children:
+  - {fileID: 4228694749312692}
+  - {fileID: 4009903854638104}
+  - {fileID: 4566333173808180}
+  - {fileID: 4323162428865892}
+  - {fileID: 4659194861862974}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -50, y: 0, z: 0}
+--- !u!4 &4009903854638104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348616983537654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.64, y: -1.5, z: -3.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000841617978024}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4228694749312692
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1507192457258362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.13, y: -2.06, z: -3.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000841617978024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4323162428865892
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821206207020464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.38, y: -1.18, z: -3.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000841617978024}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4566333173808180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1563304256300388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.38, y: -1.76, z: -3.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000841617978024}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4659194861862974
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378457644593656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.26, y: -0.83, z: -3.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000841617978024}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &61787538148034252
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275181587176404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.40481758, y: -6.8121204}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15.55, y: 11.89}
+    newSize: {x: 15.55, y: 11.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.001984, y: 13.72134}
+  m_EdgeRadius: 0
+--- !u!114 &114499267103211888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275181587176404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b740fd9dff7ecdd42a28b54c14bfbbe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
+  datosPNJ: {fileID: 11400000, guid: 5983ec37c3434164c8d46f66d1aa73ed, type: 2}
+  reflexiones:
+  - "La historia ha desconocido por siglos el aporte de las mujeres al conocimiento,
+    la econom\xEDa y el tejido social, nuestro camino para eliminar la violencia es
+    valorar a todos y todas por igual, reconociendo siempre sus capacidades"
+  - "Algunas plantas y animales s\xF3lo est\xE1n presentes cuando el ambiente es sano,
+    la paz funciona igual, s\xF3lo est\xE1 presente cuando el entorno est\xE1 lleno
+    de respeto y equidad entre todos y todas"
+  - "Las mujeres afro, cargaron las semillas de sus \xE1rboles sagrados tejidas en
+    sus cabellos. Cargaron y tejieron en ellas la dignidad y fortaleza de su pueblo"
+  - "Las palabras pueden ser motores de alegr\xEDa. Siembras armon\xEDa con tus acciones,
+    cuando respetas al otro y a ti mismo"
+  - "Nuestro entorno se construye con cada palabra y con cada acci\xF3n que realizamos
+    en comunidad, si hay discriminaci\xF3n contra los miembros de tu propia comunidad
+    \xBFC\xF3mo esperas promover la armon\xEDa?"
+  - "Las mujeres tienen el derecho de caminar por espacios p\xFAblicos y privados
+    sin ser expuestos al acoso callejero."
+  - "La libertad es el bien m\xE1s preciado de un ser humano, no permitamos amenazas
+    para obligarnos u obligar a otros a hacer algo que no desea"
+  - "Nuestro cuerpo s\xF3lo pertenece a nosotros mismos. Nadie puede controlar tu
+    forma de vestir"
+  - "La violencia tiene muchos rostros, necesitas prestar atenci\xF3n a los detalles,
+    sobre las peque\xF1as violencias, se construyen las grandes desigualdades"
+  - "Analiza siempre la perspectiva del otro \xBFC\xF3mo se ve la situaci\xF3n desde
+    su punto de vista?"
+  - “La igualdad entre hombres y mujeres no se trata solo de dar oportunidades iguales,
+    sino de reconocer y valorar el aporte y la importancia de las mujeres en todos los 
+    aspectos de la sociedad”.
+  - “La violencia de g\xE9nero no solo es f\xEDsica, tambi\xE9n puede ser verbal, 
+    psicol\xF3gica o econ\xF3mica. Debemos estar atentos y reconocer todas las formas 
+    de violencia para poder prevenirla”
+  - “La diversidad es lo que hace que nuestra sociedad sea rica y compleja. Debemos 
+    celebrarla y respetarla en todas sus formas, incluyendo la diversidad de g\xE9nero 
+    y la identidad de g\xE9nero”
+  - “La violencia de g\xE9nero no es un problema individual, es un problema social. 
+    Debemos trabajar juntos como sociedad para crear un ambiente seguro y respetuoso 
+    para todas las personas”
+  - “La comunicaci\xF3n y el di\xE1logo son clave para resolver conflictos y prevenir 
+    la violencia. Debemos aprender a escuchar y entender las perspectivas de los dem\xE1s 
+    para poder construir sociedades m\xE1s inclusivas y equitativas”
+  - "Habla conmigo de vez en cuando y te regalar\xE9 semillas de Tsiunas para sembrar"
+  spawnTsiuna: {fileID: 4228694749312692}
+  prefabTsiuna: {fileID: 1365830056422206, guid: 878b147dd59cd4452a05d50e5ffe5bcc,
+    type: 2}
+--- !u!212 &212832977248465588
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275181587176404}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 825063161
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 834414a3d148e49a19eb9532f6b6819a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 15.55, y: 11.89}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

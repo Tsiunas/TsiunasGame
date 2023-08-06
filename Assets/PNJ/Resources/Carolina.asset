@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Carolina
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 832443e73c0634ac1bd7b87578d5c013, type: 3}
+  id: PNJ_CAROLINA
+  nombre: Carolina
+  situaciones:
+  - id: SIT_
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114257223137313010}
+      - {fileID: 114575178904484430}
+      - {fileID: 114911989129162776}
+      - {fileID: 114234108707490514}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: 
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: Defecto
+  - audio: {fileID: 0}
+    texto: "Ahora no podr\xE9 visita a mi madre..."
+  - audio: {fileID: 0}
+    texto: Defecto
+  - audio: {fileID: 0}
+    texto: "Usted tiene raz\xF3n, las mujeres son tan libres como cualquiera"
+  - audio: {fileID: 0}
+    texto: Gracias por defender los derechos de las mujeres oprimidas
+  estadoMachismo: 1
+--- !u!114 &114098279121689788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_CAROLINA
+--- !u!114 &114210377614046670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 0
+  varAModificar: 0
+--- !u!114 &114234108707490514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 4LDO
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  opciones:
+  - sentencia: Es necesario que los hombres cuiden de sus mujeres, ahora pasan muchas
+      cosas
+    consecuencias:
+    - {fileID: 114849896307364606}
+    - {fileID: 114994055139240604}
+    - {fileID: 114831604908932398}
+  - sentencia: "Las mujeres pueden decidir, pero tambi\xE9n asumir las consecuencias"
+    consecuencias:
+    - {fileID: 114298568846282242}
+    - {fileID: 114361522674243476}
+    - {fileID: 114525327029411986}
+  - sentencia: "\xA1Las mujeres tienen derecho a caminar libres al igual que los hombres!"
+    consecuencias:
+    - {fileID: 114098279121689788}
+    - {fileID: 114873857937248268}
+  pregunta: "\xA1Las mujeres ahora parecen no entender c\xF3mo comportarse correctamente!"
+--- !u!114 &114257223137313010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Despu\xE9s de la misa visitar\xE9 a mi madre amor, llegar\xE9 tarde. Dej\xE9
+      la comida lista."
+--- !u!114 &114275012037865830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DIEGO
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Momento mujer, \xBFCon permiso de qui\xE9n? No me gusta que salgas sola,
+      tu madre puede esperar"
+--- !u!114 &114298568846282242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DIEGO
+--- !u!114 &114361522674243476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_CAROLINA
+--- !u!114 &114498699518896616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Llegar\xE9 m\xE1s tarde a casa amor, dej\xE9 la comida lista, visitar\xE9
+      a mi madre"
+--- !u!114 &114525327029411986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114575178904484430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DIEGO
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Momento mujer, \xBFCon permiso de qui\xE9n? No me gusta que salgas sola,
+      tu madre puede esperar"
+--- !u!114 &114831604908932398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114849896307364606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DIEGO
+--- !u!114 &114873857937248268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DIEGO
+--- !u!114 &114911989129162776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DIEGO
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Las mujeres ahora parecen no entender c\xF3mo comportarse correctamente!"
+--- !u!114 &114994055139240604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_CAROLINA

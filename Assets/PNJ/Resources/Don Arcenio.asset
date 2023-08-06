@@ -1,0 +1,485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Don Arcenio
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 00f26538ced31465993fcd959a5a43e2, type: 3}
+  id: PNJ_DON_ARCENIO
+  nombre: Don Arcenio
+  situaciones:
+  - id: SIT_MARGARITA
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114890353816439026}
+      - {fileID: 114462627954212136}
+      - {fileID: 114707410506058424}
+      - {fileID: 114828687854714156}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_DON_ARCENIO_2
+      lineas:
+      - {fileID: 114446222066848604}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_DON_ARCENIO_3
+      lineas:
+      - {fileID: 114256421073263106}
+      - {fileID: 114028801853409650}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_DON_ARCENIO_4
+      lineas:
+      - {fileID: 114021488847479420}
+      - {fileID: 114735038117822830}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_DON_ARCENIO_5
+      lineas:
+      - {fileID: 114767437604202858}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "Tanto tiempo viendo a la ni\xF1a Margarita sufrir bajo las garras de su
+      esposo."
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: No me gusta su manera de pensar que atenta contra las mujeres
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: Usted me ca bien, por que se ve que respeta los derechos de la gente
+  - audio: {fileID: 0}
+    texto: "Su actitud es de buenas personas, los j\xF3venes deben aprender a respetarse
+      mutuamente"
+  estadoMachismo: 2
+  mensajeMamaTule: 
+  textoFlamado: 
+--- !u!114 &114021488847479420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Gracias, usted se ve que es una persona consciente.
+  - audio: {fileID: 0}
+    texto: "Entonces, podemos esperar a que venga el esposo en unos d\xEDas y hablamos
+      con \xE9l"
+--- !u!114 &114022034967598272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_DON_ARCENIO_2
+--- !u!114 &114028801853409650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones:
+  - sentencia: "S\xED. Algo hay que hacer."
+    consecuencias:
+    - {fileID: 114215678510717564}
+  - sentencia: No, no me meto en problemas de pareja.
+    consecuencias:
+    - {fileID: 114357330004326390}
+    - {fileID: 114832363527090056}
+  pregunta: "\xBFMe ayuda?"
+--- !u!114 &114065453525334500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114167722581886842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114182986058798708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON_ARCENIO
+--- !u!114 &114215678510717564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_DON_ARCENIO_4
+--- !u!114 &114256421073263106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Tal vez darle apoyo, o hablar con su esposo cuando llegue...
+  - audio: {fileID: 0}
+    texto: "\xBFMe ayuda?"
+--- !u!114 &114288449757502590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DON_ARCENIO
+--- !u!114 &114327609762172228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches: []
+--- !u!114 &114346782828938778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114357330004326390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON_ARCENIO
+--- !u!114 &114421271234055378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114423671345562610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 3CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_DON_ARCENIO_2
+--- !u!114 &114446222066848604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Si eso es lo que usted piensa, entonces no me gusta su presencia aqu\xED."
+--- !u!114 &114458730731170210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 3CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114462627954212136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFPor qu\xE9?"
+--- !u!114 &114476720700426250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_DON_ARCENIO_3
+--- !u!114 &114647980564553932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114707410506058424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: No la deja ser libre, no la deja salir y no la deja administrar la hacienda
+--- !u!114 &114735038117822830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: Por ser como es, le regalo mi viejo MACHETE.
+  - audio: {fileID: 0}
+    texto: "Seleccione el MACHETE en el inventario y \xFAselo sobre la maleza o sobre
+      las plantas para cortarlas"
+--- !u!114 &114767437604202858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "No es un simple \"problema de pareja\" es violencia ec\xF3nomica y psicol\xF3gica."
+--- !u!114 &114819367993961014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: 
+--- !u!114 &114828687854714156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 4LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_4
+  opciones:
+  - sentencia: "\xC9l sabe. El hombre siempre sabe..."
+    consecuencias:
+    - {fileID: 114346782828938778}
+    - {fileID: 114910799793600716}
+    - {fileID: 114423671345562610}
+  - sentencia: Ella es mujer, no sabe administrar
+    consecuencias:
+    - {fileID: 114182986058798708}
+    - {fileID: 114022034967598272}
+  - sentencia: "\xBFQu\xE9 puedo hacer?"
+    consecuencias:
+    - {fileID: 114288449757502590}
+    - {fileID: 114476720700426250}
+  pregunta: No la deja ser libre, no la deja salir y no la deja administrar la hacienda
+--- !u!114 &114832363527090056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_DON_ARCENIO_5
+--- !u!114 &114890353816439026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Buen d\xEDa Joven. Mi nombre es Arcenio."
+  - audio: {fileID: 0}
+    texto: "He sido el mayordomo de esta hacienda durante 50 a\xF1os"
+  - audio: {fileID: 0}
+    texto: "Esa de ah\xED es la ni\xF1a Margarita, la se\xF1ora de la Hacienda"
+  - audio: {fileID: 0}
+    texto: "\xDAltimamente est\xE1 muy triste, yo creo que es ese sucio de su esposo
+      que no la deja ser libre"
+--- !u!114 &114910799793600716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON_ARCENIO

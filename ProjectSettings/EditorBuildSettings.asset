@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8f44be1e05a9a4e8090e45ed1eb61be2
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: af33b6750265b417eb5a1ff253ca406c
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: f07da7f1ec5074a229f7f46c3436416c
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: d2f85f1a479014cb197f879a0aa3e38a
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: 6c1cacb684bdf46b6988408a1df99bbb
+  - enabled: 1
+    path: Assets/Scenes/Agroinsumos.unity
+    guid: 973d358415d8f4ee5970e60bdb05738e
+  - enabled: 1
+    path: Assets/Scenes/Places/Bakery.unity
+    guid: 6cc78e7f2d41c4dcdae967091356b7d6
+  - enabled: 1
+    path: Assets/Scenes/Places/ELLago.unity
+    guid: 6b0503f6ef1ef45b8b0c107c12e06a98
+  - enabled: 1
+    path: Assets/Scenes/Places/ElRefugio.unity
+    guid: 885e1ecae26f94c68b36efad9abce7f6
+  - enabled: 1
+    path: Assets/Scenes/Places/HaciendaLaMarquesa.unity
+    guid: 5a6161595d1be45a298dd3babba7f475
+  - enabled: 1
+    path: Assets/Scenes/Places/Pub.unity
+    guid: d6b043311b608412f9322e075a8bd268
+  - enabled: 1
+    path: Assets/Scenes/Places/tiendaDonJorge.unity
+    guid: 8c0e83ac774ab47798ff24750d064d4e
+  - enabled: 1
+    path: Assets/Scenes/Places/TiendaElBuenVivir.unity
+    guid: be2857587c81046c6a078790c7076b26
+  - enabled: 1
+    path: Assets/Scenes/Places/TownHall.unity
+    guid: 9036b2860264d4244b5e10ffa9a59727
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 033d1bde6251e4fe39e96413b7eb721c
+  - enabled: 1
+    path: Assets/Scenes/Places/Church.unity
+    guid: 88d2d34998e6a4865aab9e418cefd1e9
+  - enabled: 1
+    path: Assets/Scenes/FinalJuego.unity
+    guid: d146290d368a04a46bbf7ce0e298575e
+  - enabled: 1
+    path: Assets/Scenes/MuerteMamaTule.unity
+    guid: 7bc0a968e9225e04997c1db44a3c8f50
+  - enabled: 1
+    path: Assets/Scenes/MuerteHambre.unity
+    guid: 496294fa86a4f6248be8534cc82c891f

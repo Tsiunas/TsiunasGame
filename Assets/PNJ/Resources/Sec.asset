@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Sec
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: c0745dab2b3014536be5719837463370, type: 3}
+  id: PNJ_SEC
+  nombre: Sec
+  situaciones:
+  - id: SIT_
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114762655524389412}
+      - {fileID: 114897006677119804}
+      - {fileID: 114922611528581960}
+      - {fileID: 114427337858967688}
+      - {fileID: 114646972589467200}
+      - {fileID: 114739915184557842}
+      - {fileID: 114680195800543458}
+      - {fileID: 114321882974140040}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "Todas las personas tenemos derecho a sentir y expresarnos \xBFNo les parece?"
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "Un ni\xF1o debe tener derecho a expresarse libremente"
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Gracias por su actitud, mi hijo crecer\xE1 libre de estereotipos"
+  - audio: {fileID: 0}
+    texto: "Gracias por respetar la libre expresi\xF3n de las personas"
+  estadoMachismo: 1
+  mensajeMamaTule: 
+--- !u!114 &114321882974140040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 8LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_8
+  opciones:
+  - sentencia: "Tiene raz\xF3n usted se\xF1or Nahuel, A los varones se le debe fortalecer
+      el car\xE1cter desde peque\xF1os."
+    consecuencias:
+    - {fileID: 114835526886072316}
+    - {fileID: 114764807512674276}
+    - {fileID: 114558403783844402}
+  - sentencia: "No existe un car\xE1cter para las chicas y otros para los chicos!
+      \xA1Ambos pueden ser valientes y tener miedo!"
+    consecuencias:
+    - {fileID: 114959368336839274}
+    - {fileID: 114819529490536752}
+    - {fileID: 114325043853850712}
+  pregunta: "\xA1Eso, ed\xFAcalo para que sea una se\xF1orita! Por eso ahora no hay
+    hombres de verdad, \xBFNo es as\xED?"
+--- !u!114 &114325043853850712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114427337858967688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_IKAL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Me da miedo el agua del lago, prefiero quedarme aqu\xED"
+--- !u!114 &114558403783844402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 2
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114646972589467200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 5LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_NAHUEL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Los hombres no sienten miedo, no te comportes como una ni\xF1a, aprende
+      a ser fuerte y valiente"
+--- !u!114 &114680195800543458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 7LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_NAHUEL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Eso, ed\xFAcalo para que sea una se\xF1orita! Por eso ahora no hay
+      hombres de verdad, \xBFNo es as\xED?"
+--- !u!114 &114739915184557842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 6LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_6
+  speeches:
+  - audio: {fileID: 0}
+    texto: No importa Ikal, tener miedo es algo normal, no tienes que arriesgarte
+      si no quieres
+--- !u!114 &114762655524389412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Buen d\xEDa! Hace un muy buen clima para pescar, le presento a mi
+      hermano Nahuel y a mi hijo Ikal"
+--- !u!114 &114764807512674276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_SEC
+--- !u!114 &114819529490536752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_NAHUEL
+--- !u!114 &114835526886072316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_NAHUEL
+--- !u!114 &114897006677119804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_NAHUEL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Me encanta las personas nuevas que llegan a la aldea!"
+--- !u!114 &114922611528581960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_NAHUEL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "La pesca mejora en la zona profunda del lago, deber\xEDamos pescar all\xED"
+--- !u!114 &114959368336839274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_SEC

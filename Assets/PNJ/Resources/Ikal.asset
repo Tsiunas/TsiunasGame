@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Ikal
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 7fb5efcf9133e4c138953f67748d3085, type: 3}
+  id: PNJ_IKAL
+  nombre: Ikal
+  situaciones: []
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: Me hace feliz sentirme libre
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "No s\xE9, me da miedo el lago en la parte honda..."
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Gracias por ense\xF1arme que no hay una sola manera de ser hombre"
+  - audio: {fileID: 0}
+    texto: "\xA1Buenos d\xEDas\xA1 Qu\xE9 alegr\xEDa volver a verle."
+  estadoMachismo: 1
+  mensajeMamaTule: 

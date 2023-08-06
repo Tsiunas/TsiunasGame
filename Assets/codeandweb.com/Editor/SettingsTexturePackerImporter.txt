@@ -1,0 +1,9 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Textures/SpriteSheets/Resources/ResourcesMechanics.tpsheet
+textureFileNames:
+- Assets/Textures/SpriteSheets/Resources/ResourcesMechanics.png
+normalmapFileNames:
+- 
+enableDebugOutput: 0

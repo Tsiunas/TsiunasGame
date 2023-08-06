@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Yurani
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 6b3e43fadd2f34c028d0a22bfdea3bf2, type: 3}
+  id: PNJ_YURANI
+  nombre: Yurani
+  situaciones:
+  - id: SIT_HACHA
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114007206451915006}
+      - {fileID: 114088060646239528}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YURANI_2
+      lineas:
+      - {fileID: 114595566281993352}
+      - {fileID: 114061166003131756}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YURANI_3
+      lineas:
+      - {fileID: 114650434406725698}
+      - {fileID: 114777954618560086}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YURANI_4
+      lineas:
+      - {fileID: 114177975371317226}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_YURANI_5
+      lineas:
+      - {fileID: 114124602222825460}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "\xA1La tienda de Don Jorge tiene los mejores precios!"
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Don Jorge me trat\xF3 mal y gente como usted lo apoya..."
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Qu\xE9 bueno verle de nuevo, gente respetuosa como usted necesita nuestro
+      pueblo"
+  - audio: {fileID: 0}
+    texto: "\xA1Qu\xE9 bueno verte! Mantengamos nuestra amistad basada en el respeto."
+  estadoMachismo: 1
+  mensajeMamaTule: 
+--- !u!114 &114007206451915006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Don Jorge puede ser muy duro, pero eso es porque los hombres saben m\xE1s
+      de negocios y se cuidan m\xE1s."
+--- !u!114 &114016095186602066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_YURANI
+--- !u!114 &114043602057725292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114061166003131756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones:
+  - sentencia: Claro que no, todos podemos ser capaces si nos lo proponemos
+    consecuencias:
+    - {fileID: 114089916143513210}
+  - sentencia: "Umm, tienes raz\xF3n."
+    consecuencias:
+    - {fileID: 114514700111029952}
+  pregunta: 
+--- !u!114 &114088060646239528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones:
+  - sentencia: "No. Con educaci\xF3n, todos podemos ser negociantes.\t"
+    consecuencias:
+    - {fileID: 114257916502182636}
+  - sentencia: "S\xED, asi ha sido siempre..."
+    consecuencias:
+    - {fileID: 114310346958497474}
+  pregunta: "Don Jorge puede ser muy duro, pero eso es porque los hombres saben m\xE1s
+    de negocios y se cuidan m\xE1s."
+--- !u!114 &114089916143513210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_3
+--- !u!114 &114113427725794068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 10
+  sube: 0
+  varAModificar: 1
+--- !u!114 &114124602222825460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Gracias, me has dado \xE1nimos..."
+  - audio: {fileID: 0}
+    texto: "...Te regalo esta HACHA, era de mi abuelo. Sirve para cortar los \xE1rboles
+      en tu granja."
+  - audio: {fileID: 0}
+    texto: "Selecci\xF3nala del inventario y toca en un \xE1rbol para cortarlo."
+--- !u!114 &114130669508756890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 5LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_5
+  opciones:
+  - sentencia: "Comprar Azad\xF3n por 20 monedas\t"
+    consecuencias:
+    - {fileID: 114290900386109344}
+    - {fileID: 114461237077289982}
+    - {fileID: 114016095186602066}
+    - {fileID: 114654260538933496}
+  - sentencia: Visitar otra tienda
+    consecuencias: []
+  pregunta: "Disculpe usted, dejarlo negociando con una mujer, d\xE9jeme enmendar
+    mi error rebajando el costo de su producto"
+--- !u!114 &114146495337355078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones: []
+  pregunta: 
+--- !u!114 &114149559249670660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: Los productos de Don Jorge son los mejores de la ciudad!
+--- !u!114 &114151870666715334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114171361886052224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114177975371317226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Bueno, seguir\xE9 en mi rutina de trabajo entonces..."
+--- !u!114 &114257916502182636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_2
+--- !u!114 &114276162881635092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 10
+  sube: 0
+  varAModificar: 1
+--- !u!114 &114290900386109344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 10
+  sube: 0
+  varAModificar: 1
+--- !u!114 &114310346958497474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_4
+--- !u!114 &114461237077289982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DON JORGE
+--- !u!114 &114471065985473026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_5
+--- !u!114 &114514700111029952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_4
+--- !u!114 &114543182697524984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON JORGE
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Disculpe usted, dejarlo negociando con una mujer, d\xE9jeme enmendar mi
+      error rebajando el costo de su producto"
+--- !u!114 &114561038793999614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 10
+  sube: 0
+  varAModificar: 1
+--- !u!114 &114595566281993352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Eso suena bonito, pero los hombres siempre tienen m\xE1s capacidad"
+--- !u!114 &114610735731268262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 1LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_1
+  opciones: []
+  pregunta: 
+--- !u!114 &114616326122306300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114650434406725698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFTu crees que aunque sea una mujer pobre puedo hacerlo?"
+--- !u!114 &114654260538933496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 4CSB
+  m_EditorClassIdentifier: 
+  cantidad: 3
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114748035726003318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Buenos d\xEDas! \xA1En La tienda de Don Jorge encuentras todo al mejor
+      precio!"
+--- !u!114 &114769859707636898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_YURANI_4
+--- !u!114 &114777954618560086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones:
+  - sentencia: "Claro que s\xED, cree en ti misma"
+    consecuencias:
+    - {fileID: 114471065985473026}
+  - sentencia: "Aunque, tendr\xE1s dificultades sino aprendes a callar"
+    consecuencias:
+    - {fileID: 114769859707636898}
+  pregunta: 
+--- !u!114 &114826408565846544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114847296640711318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: 
+--- !u!114 &114928251900524562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_2
+  opciones:
+  - sentencia: "Selecci\xF3n de semillas 15 monedas"
+    consecuencias:
+    - {fileID: 114113427725794068}
+  - sentencia: "Selecci\xF3n de Pica 7 monedas"
+    consecuencias:
+    - {fileID: 114561038793999614}
+  - sentencia: "Selecci\xF3n de Azad\xF3n 30 monedas"
+    consecuencias:
+    - {fileID: 114276162881635092}
+  pregunta: "\xA1Buenos d\xEDas! \xA1En La tienda de Don Jorge encuentras todo al
+    mejor precio!"
+--- !u!114 &114989653983730000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 2CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 0
+  varAModificar: 0

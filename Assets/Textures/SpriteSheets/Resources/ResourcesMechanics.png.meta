@@ -1,0 +1,2947 @@
+fileFormatVersion: 2
+guid: 223a56658cc1248f2a787ad39186ad2a
+timeCreated: 1518442200
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 02_Dinero_01
+    21300002: 02_Dinero_02
+    21300004: 02_Dinero_03
+    21300006: 02_Dinero_04
+    21300008: Amistad_3
+    21300010: Amistad_0
+    21300012: Corazon
+    21300014: Amistad_1
+    21300016: 03_Amistad_05
+    21300018: 4_Flamas de la armonia_01
+    21300020: 4_Flamas de la armonia_02
+    21300022: 4_Flamas de la armonia_03
+    21300024: 4_Flamas de la armonia_04
+    21300026: 4_Flamas de la armonia_05
+    21300028: 4_Flamas de la armonia_06
+    21300030: 4_Flamas de la armonia_09
+    21300032: 05_Semilla_01
+    21300034: 5_Semilla_01
+    21300036: 05_Semilla_02
+    21300038: 05_Semilla_03
+    21300040: 05_Semilla_04
+    21300042: 05_Semilla_05
+    21300044: 05_Semilla_06
+    21300046: 06_Planta_01
+    21300048: 06_Planta_02
+    21300050: 06_Planta_03
+    21300052: 06_Planta_04
+    21300054: 06_Planta_05
+    21300056: 06_Planta_06
+    21300058: 06_Planta_07
+    21300060: 06_Planta_08
+    21300062: 07_Comida_01
+    21300064: 07_Comida_02
+    21300066: 07_Comida_03
+    21300068: 07_Comida_04
+    21300070: 07_Comida_05
+    21300072: 07_Comida_06
+    21300074: 07_Comida_07
+    21300076: 07_Comida_08
+    21300078: 07_Comida_09
+    21300080: 07_Comida_010
+    21300082: 07_Comida_011
+    21300084: 07_Comida_012
+    21300086: 08_Herramientas_01
+    21300088: 08_Herramientas_02
+    21300090: 08_Herramientas_03
+    21300092: 08_Herramientas_04
+    21300094: 08_Herramientas_05
+    21300096: 09_Herramientas de oro_01
+    21300098: 09_Herramientas de oro_02
+    21300100: 09_Herramientas de oro_03
+    21300102: 09_Herramientas de oro_04
+    21300104: 09_Herramientas de oro_05
+    21300106: 10_Puerta_01
+    21300108: 10_Puerta_02
+    21300110: 10_Puerta_03
+    21300112: 10_Puerta_04
+    21300114: 11_granja_01
+    21300116: 11_granja_02
+    21300118: 11_granja_03
+    21300120: 11_granja_04
+    21300122: 11_granja_05
+    21300124: 11_granja_06
+    21300126: 11_granja_07
+    21300128: 11_granja_08
+    21300130: 11_granja_09
+    21300132: 11_granja_010
+    21300134: 11_granja_011
+    21300136: 11_granja_012
+    21300138: 11_granja_013
+    21300140: 11_granja_014
+    21300142: 11_granja__cerco_01
+    21300144: 11_granja__cerco_02
+    21300146: 11_granja__cerco_03
+    21300148: 11_granja__cerco_04
+    21300150: 11_granja__cerco_05
+    21300152: 11_granja__cerco_06
+    21300154: 11_granja__cerco_07
+    21300156: 11_granja__Hierba_01
+    21300158: 11_granja__Hierba_02
+    21300160: 11_granja__Hierba_03
+    21300162: 11_granja__Hierba_04
+    21300164: 11_granja__Hierba_05
+    21300166: 11_granja__Hierba_06
+    21300168: 11_granja_Arbol1_01
+    21300170: 11_granja_Arbol1_02
+    21300172: 11_granja_Arbol1_03
+    21300174: 11_granja_Arbol1_04
+    21300176: 11_granja_Arbol1_05
+    21300178: 11_granja_Arbol1_06
+    21300180: 11_granja_Arbol2_01
+    21300182: 11_granja_Arbol2_02
+    21300184: 11_granja_Arbol2_03
+    21300186: 11_granja_Arbol2_04
+    21300188: 11_granja_Arbol3_01
+    21300190: 11_granja_Arbol3_02
+    21300192: 11_granja_Arbol3_03
+    21300194: 11_granja_Arbol3_04
+    21300196: 11_granja_Flor_01
+    21300198: 11_granja_Flor_02
+    21300200: 11_granja_Flor_03
+    21300202: 11_granja_Flor_04
+    21300204: 11_granja_Flor_05
+    21300206: 11_granja_Follaje_01
+    21300208: 11_granja_Follaje_02
+    21300210: 11_granja_Follaje_03
+    21300212: 11_granja_Follaje_04
+    21300214: 11_granja_Follaje_05
+    21300216: 11_granja_Monte_01
+    21300218: 11_granja_Monte_02
+    21300220: 11_granja_Monte_03
+    21300222: 11_granja_Monte_04
+    21300224: 11_granja_Monte_05
+    21300226: 11_granja_Raiz_01
+    21300228: 11_granja_Raiz_02
+    21300230: 11_granja_Raiz_03
+    21300232: 11_granja_Raiz_04
+    21300234: 11_granja_Roca_01
+    21300236: 11_granja_Roca_02
+    21300238: 11_granja_Roca_03
+    21300240: 11_granja_Roca_04
+    21300242: 11_granja_Roca_05
+    21300244: 11_granja_Roca_06
+    21300246: 11_granja_Roca_07
+    21300248: 11_granja_Roca_08
+    21300250: 11_granja_Roca_09
+    21300252: 11_granja_Roca_10
+    21300254: 11_granja_SIlo_01
+    21300256: 11_granja_SIlo_02
+    21300258: 11_granja_Terreno_01
+    21300260: 11_granja_Terreno_02
+    21300262: 11_granja_Terreno_03
+    21300264: 11_granja_Terreno_04
+    21300266: 11_granja_Terreno_05
+    21300268: 11_granja_Terreno_06
+    21300270: 11_granja_Terreno_07
+    21300272: 11_granja_Terreno_08
+    21300274: 11_granja_Terreno_09
+    21300276: 11_granja_Terreno_10
+    21300278: 11_granja_Terreno_11
+    21300280: 11_granja_Terreno_12
+    21300282: 11_granja_Terreno_13
+    21300284: 11_granja_Terreno_14
+    21300286: Medidor de Hambre _01
+    21300288: Medidor de Hambre _02
+    21300290: Medidor de Hambre _04_1
+    21300292: Medidor de Hambre _04_2
+    21300294: Medidor de Hambre _05_1
+    21300296: Medidor de Hambre _05_2
+    21300298: Medidor de Hambre _06_1
+    21300300: Medidor de Hambre _06_2
+    21300302: Medidor de Hambre _07_1
+    21300304: Medidor de Hambre _07_2
+    21300306: Bread
+    21300308: Chontaduro
+    21300310: Coffe
+    21300312: Fish
+    21300314: Granja-11_granja_01
+    21300316: Granja-11_granja_02
+    21300318: Granja-11_granja_03
+    21300320: Granja-11_granja_04
+    21300322: Granja-11_granja_05
+    21300324: Granja-11_granja_06
+    21300326: Granja-11_granja_07
+    21300328: Granja-11_granja_08
+    21300330: Granja-11_granja_09
+    21300332: Granja-11_granja_010
+    21300334: Granja-11_granja_011
+    21300336: Granja-11_granja_012
+    21300338: Granja-11_granja_013
+    21300340: Granja-11_granja_014
+    21300342: Granja-11_granja__cerco_01
+    21300344: Granja-11_granja__cerco_02
+    21300346: Granja-11_granja__cerco_03
+    21300348: Granja-11_granja__cerco_04
+    21300350: Granja-11_granja__cerco_05
+    21300352: Granja-11_granja__cerco_06
+    21300354: Granja-11_granja__cerco_07
+    21300356: Granja-11_granja__Hierba_01
+    21300358: Granja-11_granja__Hierba_02
+    21300360: Granja-11_granja__Hierba_03
+    21300362: Granja-11_granja__Hierba_04
+    21300364: Granja-11_granja__Hierba_05
+    21300366: Granja-11_granja__Hierba_06
+    21300368: Granja-11_granja_Arbol1_01
+    21300370: Granja-11_granja_Arbol1_02
+    21300372: Granja-11_granja_Arbol1_03
+    21300374: Granja-11_granja_Arbol1_04
+    21300376: Granja-11_granja_Arbol1_05
+    21300378: Granja-11_granja_Arbol1_06
+    21300380: Granja-11_granja_Arbol2_01
+    21300382: Granja-11_granja_Arbol2_02
+    21300384: Granja-11_granja_Arbol2_03
+    21300386: Granja-11_granja_Arbol2_04
+    21300388: Granja-11_granja_Arbol3_01
+    21300390: Granja-11_granja_Arbol3_02
+    21300392: Granja-11_granja_Arbol3_03
+    21300394: Granja-11_granja_Arbol3_04
+    21300396: Granja-11_granja_Flor_01
+    21300398: Granja-11_granja_Flor_02
+    21300400: Granja-11_granja_Flor_03
+    21300402: Granja-11_granja_Flor_04
+    21300404: Granja-11_granja_Flor_05
+    21300406: Granja-11_granja_Follaje_01
+    21300408: Granja-11_granja_Follaje_02
+    21300410: Granja-11_granja_Follaje_03
+    21300412: Granja-11_granja_Follaje_04
+    21300414: Granja-11_granja_Follaje_05
+    21300416: Granja-11_granja_Monte_01
+    21300418: Granja-11_granja_Monte_02
+    21300420: Granja-11_granja_Monte_03
+    21300422: Granja-11_granja_Monte_04
+    21300424: Granja-11_granja_Monte_05
+    21300426: Granja-11_granja_Raiz_01
+    21300428: Granja-11_granja_Raiz_02
+    21300430: Granja-11_granja_Raiz_03
+    21300432: Granja-11_granja_Raiz_04
+    21300434: Granja-11_granja_Roca_01
+    21300436: Granja-11_granja_Roca_02
+    21300438: Granja-11_granja_Roca_03
+    21300440: Granja-11_granja_Roca_04
+    21300442: Granja-11_granja_Roca_05
+    21300444: Granja-11_granja_Roca_06
+    21300446: Granja-11_granja_Roca_07
+    21300448: Granja-11_granja_Roca_08
+    21300450: Granja-11_granja_Roca_09
+    21300452: Granja-11_granja_Roca_10
+    21300454: Granja-11_granja_SIlo_01
+    21300456: Granja-11_granja_SIlo_02
+    21300458: Granja-11_granja_Terreno_01
+    21300460: Granja-11_granja_Terreno_02
+    21300462: Granja-11_granja_Terreno_03
+    21300464: Granja-11_granja_Terreno_04
+    21300466: Granja-11_granja_Terreno_05
+    21300468: Granja-11_granja_Terreno_06
+    21300470: Granja-11_granja_Terreno_07
+    21300472: Granja-11_granja_Terreno_08
+    21300474: Granja-11_granja_Terreno_09
+    21300476: Granja-11_granja_Terreno_10
+    21300478: Granja-11_granja_Terreno_11
+    21300480: Granja-11_granja_Terreno_12
+    21300482: Granja-11_granja_Terreno_13
+    21300484: Granja-11_granja_Terreno_14
+    21300486: HungerBackground0
+    21300488: HungerBackground1
+    21300490: HungerBackground2
+    21300492: HungerBackground3
+    21300494: HungerBackground4
+    21300496: HungerStomach0
+    21300498: HungerStomach1
+    21300500: HungerStomach2
+    21300502: HungerStomach3
+    21300504: HungerStomach4
+    21300506: Milk
+    21300508: RiceWithBeans
+    21300510: Soup
+    21300512: Water
+    21300514: Axe
+    21300516: CornFruit
+    21300518: CornSeed
+    21300520: Hammer
+    21300522: Hoe
+    21300524: Machete
+    21300526: TsiunaFruit
+    21300528: TsiunaSeed
+    21300530: Hand
+    21300532: Watering_can
+    21300534: Watering_Can
+    21300536: Amistad_4
+    21300538: Pueblo-11_Estatua parque_01
+    21300540: AvatarPorDefecto
+    21300542: Amistad_3
+    21300544: Amistad_0
+    21300546: Amistad_2
+    21300548: Amistad_1
+    21300550: Amistad_4
+    21300552: Amistad_3
+    21300554: Amistad_0
+    21300556: Amistad_2
+    21300558: Amistad_1
+    21300560: Amistad_4
+    21300562: ResourcesMechanics_0
+    21300564: Amistad_13
+    21300566: Axe_Gold
+    21300568: eee
+    21300570: Hammer_Gold
+    21300572: Hoe_Gold
+    21300574: Machete_Gold
+    21300576: Pueblo-Agroinsumos
+    21300578: Pueblo-Bakery
+    21300580: Pueblo-Church
+    21300582: Pueblo-HaciendaLaMarqueza
+    21300584: Pueblo-Pub
+    21300586: Pueblo-Store
+    21300588: Pueblo-TiendaElBuenVivir
+    21300590: Pueblo-TownHall
+    21300592: Fondo_Reloj
+    21300594: Frente_Reloj
+    21300596: Watering_Can_Gold
+    21300598: FondoElementos
+    21300600: Cuadro texto 2
+    21300602: Cuadro texto 3
+    21300604: Cuadro texto 4
+    21300606: Cuadro texto 5
+    21300608: TileNormal
+    21300610: TilePlowed
+    21300612: Circulo Madera
+    21300614: Tabla nombre
+    21300616: Circulo Madera Mask
+    21300618: AvatarPJ
+    21300620: BotonAyuda
+    21300622: Cuadro ayuda 2
+    21300624: Cuadro texto objetivo
+    21300626: FlechaRegresar
+    21300628: _202_Dinero_01
+    21300630: HierbaArada
+    21300632: HierbaNormal
+    21300634: HierbaPlowable
+    21300636: Pueblo-Lago la Paz
+    21300638: Granja-1111_granja_Follaje_05
+    21300640: Granja-111_granja_Follaje_05
+    21300642: Granja-11_tile_granja_Terreno_14
+    21300644: Granja-tile_111_granja_Terreno_13
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_Dinero_02
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 13
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 02_Dinero_04
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 153
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_01
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 364
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_02
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 667
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_03
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 103
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_04
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 714
+        width: 26
+        height: 45
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_05
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 574
+        width: 27
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_06
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 879
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 4_Flamas de la armonia_09
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 717
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 5_Semilla_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 201
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_01
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 804
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_02
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 488
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_03
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 904
+        width: 111
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_04
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 488
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_05
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 691
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 05_Semilla_06
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1552
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_01
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 152
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_02
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 551
+        width: 128
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_03
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1225
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_04
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 545
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_05
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 508
+        width: 165
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_06
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 798
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_07
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 672
+        width: 128
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 06_Planta_08
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1306
+        width: 132
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 10_Puerta_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 359
+        width: 211
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 10_Puerta_02
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 806
+        width: 168
+        height: 434
+      alignment: 9
+      pivot: {x: 0.6041667, y: 0.48963133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: _202_Dinero_01
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 7
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_0
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 480
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_1
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 64
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_2
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1481
+        width: 3
+        height: 3
+      alignment: 9
+      pivot: {x: 0.8333333, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_3
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 510
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_4
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 624
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Amistad_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 67
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: 0.525641, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AvatarPJ
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 584
+        width: 146
+        height: 215
+      alignment: 9
+      pivot: {x: 0.40753424, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Axe
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 291
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Axe_Gold
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 62
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BotonAyuda
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 273
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Bread
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1174
+        width: 127
+        height: 104
+      alignment: 9
+      pivot: {x: 0.46850392, y: 0.45192307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Chontaduro
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 661
+        width: 170
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Circulo Madera Mask
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 288
+        width: 227
+        height: 224
+      alignment: 9
+      pivot: {x: 0.47797358, y: 0.48214287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Circulo Madera
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 520
+        width: 259
+        height: 253
+      alignment: 9
+      pivot: {x: 0.488417, y: 0.49407116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Coffe
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1043
+        width: 152
+        height: 129
+      alignment: 9
+      pivot: {x: 0.44078946, y: 0.54651165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CornFruit
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 811
+        width: 111
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: CornSeed
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 5
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Cuadro texto 2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1486
+        width: 960
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5015625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Cuadro texto 3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1398
+        width: 344
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5101744, y: 0.48188406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Cuadro texto 4
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1420
+        width: 344
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5101744, y: 0.48188406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Cuadro texto 5
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1280
+        width: 344
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5101744, y: 0.48188406}
+      border: {x: 46, y: 30, z: 49, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Cuadro texto objetivo
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1538
+        width: 351
+        height: 229
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51746726}
+      border: {x: 54, y: 35, z: 56, w: 23}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eee
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 557
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fish
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 547
+        width: 170
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50446427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FlechaRegresar
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 633
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Fondo_Reloj
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 713
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: FondoElementos
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 214
+        width: 76
+        height: 79
+      alignment: 9
+      pivot: {x: 0.48026314, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Frente_Reloj
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 537
+        width: 96
+        height: 94
+      alignment: 9
+      pivot: {x: 0.48958334, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_01
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 997
+        width: 147
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0.67045456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_02
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1404
+        width: 17
+        height: 14
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_03
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 329
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_04
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 82
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_05
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1183
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_06
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 377
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_07
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1
+        width: 101
+        height: 59
+      alignment: 9
+      pivot: {x: 0.509901, y: 0.5169492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_08
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 367
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54901963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_09
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 97
+        width: 86
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.5064935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_010
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 718
+        width: 86
+        height: 78
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_011
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 66
+        width: 54
+        height: 41
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.58536583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_012
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 170
+        width: 65
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4846154, y: 0.5595238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_013
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1134
+        width: 97
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5681818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_014
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 176
+        width: 88
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_01
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 119
+        width: 52
+        height: 112
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.48660713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_02
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 207
+        width: 112
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4955357, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_03
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 88
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_04
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 886
+        width: 39
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5045872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_05
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 521
+        width: 39
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_06
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1
+        width: 111
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__cerco_07
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 108
+        width: 28
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44642857, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_01
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 334
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_02
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 262
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_03
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 158
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_04
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 977
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_05
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 833
+        width: 83
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5060241, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja__Hierba_06
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 905
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_01
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 377
+        width: 69
+        height: 129
+      alignment: 9
+      pivot: {x: 0.036231883, y: 0.57751936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_02
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 233
+        width: 69
+        height: 129
+      alignment: 9
+      pivot: {x: -0.036231883, y: 0.57751936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_03
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1180
+        width: 96
+        height: 106
+      alignment: 9
+      pivot: {x: 0.46354166, y: 0.7028302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_04
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 355
+        width: 126
+        height: 58
+      alignment: 9
+      pivot: {x: 0.60714287, y: 1.4224138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_05
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 53
+        width: 154
+        height: 51
+      alignment: 9
+      pivot: {x: 0.49675325, y: 1.5196079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol1_06
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 63
+        width: 41
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4390244, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol2_01
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1637
+        width: 87
+        height: 130
+      alignment: 9
+      pivot: {x: 0.0862069, y: 0.58076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol2_02
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 420
+        width: 87
+        height: 129
+      alignment: 9
+      pivot: {x: 0.0862069, y: 0.5852713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol2_03
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 233
+        width: 121
+        height: 120
+      alignment: 9
+      pivot: {x: 0.37603307, y: 0.62916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol2_04
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 509
+        width: 138
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5833333, y: 1.1027397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol3_01
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1420
+        width: 93
+        height: 130
+      alignment: 9
+      pivot: {x: 0.123655915, y: 0.58076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol3_02
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1288
+        width: 93
+        height: 130
+      alignment: 9
+      pivot: {x: 0.123655915, y: 0.58076924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol3_03
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 237
+        width: 98
+        height: 116
+      alignment: 9
+      pivot: {x: 0.34183672, y: 0.6508621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Arbol3_04
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1
+        width: 140
+        height: 65
+      alignment: 9
+      pivot: {x: 0.575, y: 1.2846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Flor_01
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 40
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Flor_02
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 42
+        width: 26
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44230768, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Flor_03
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 936
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51282054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Flor_04
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 5
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5192308, y: 0.530303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Flor_05
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 38
+        width: 47
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48863637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Follaje_01
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 775
+        width: 31
+        height: 29
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Follaje_02
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Follaje_03
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Follaje_04
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Monte_01
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 51
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Monte_02
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 406
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Monte_03
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 775
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Monte_04
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 784
+        width: 33
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Monte_05
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 639
+        width: 27
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Raiz_01
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 195
+        width: 72
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Raiz_02
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 102
+        width: 72
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5069444, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Raiz_03
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 40
+        width: 57
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4649123, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Raiz_04
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 69
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4852941, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_01
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 12
+        width: 147
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_02
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1
+        width: 147
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_03
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 636
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_04
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 238
+        width: 82
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_05
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1
+        width: 82
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_06
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 100
+        height: 61
+      alignment: 9
+      pivot: {x: 0.505, y: 0.5163934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_07
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 230
+        width: 87
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_08
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 191
+        width: 97
+        height: 44
+      alignment: 9
+      pivot: {x: 0.48453608, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_09
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 109
+        width: 64
+        height: 42
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.54761904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Roca_10
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 117
+        width: 56
+        height: 39
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_SIlo_01
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 550
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_SIlo_02
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 263
+        width: 117
+        height: 113
+      alignment: 9
+      pivot: {x: 0.508547, y: 0.49115044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_01
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_02
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_03
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_04
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 33
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_05
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 30
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4074074, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_06
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_07
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 460
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_08
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_09
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_10
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 34
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_11
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_granja_Terreno_12
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 120
+        width: 95
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-11_tile_granja_Terreno_14
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 205
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-111_granja_Follaje_05
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 68
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Granja-tile_111_granja_Terreno_13
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hammer
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 801
+        width: 142
+        height: 182
+      alignment: 9
+      pivot: {x: 0.50352114, y: 0.47802198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hammer_Gold
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1041
+        width: 142
+        height: 182
+      alignment: 9
+      pivot: {x: 0.50352114, y: 0.489011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hand
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 985
+        width: 141
+        height: 186
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.51344085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HierbaArada
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 415
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HierbaNormal
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 378
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HierbaPlowable
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 106
+        width: 128
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hoe
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 514
+        width: 196
+        height: 278
+      alignment: 9
+      pivot: {x: 0.45408162, y: 0.49460432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hoe_Gold
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 508
+        width: 198
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48867926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerBackground0
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 377
+        width: 75
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerBackground1
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 295
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerBackground2
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 398
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerBackground3
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 406
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerBackground4
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 316
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerStomach0
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 423
+        width: 50
+        height: 61
+      alignment: 9
+      pivot: {x: 0.45, y: 0.46721312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerStomach1
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 105
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.48913044, y: 0.46825397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerStomach2
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 108
+        width: 39
+        height: 66
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.47727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerStomach3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 55
+        width: 39
+        height: 62
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.42741936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HungerStomach4
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 486
+        width: 38
+        height: 69
+      alignment: 9
+      pivot: {x: 0.35526314, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Machete
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 51
+        width: 171
+        height: 276
+      alignment: 9
+      pivot: {x: 0.4502924, y: 0.5054348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Machete_Gold
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 68
+        width: 193
+        height: 259
+      alignment: 9
+      pivot: {x: 0.51295334, y: 0.507722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Milk
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1173
+        width: 132
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45419848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-11_Estatua parque_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 794
+        width: 314
+        height: 446
+      alignment: 9
+      pivot: {x: 0.49522293, y: 0.514574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Agroinsumos
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1560
+        width: 358
+        height: 207
+      alignment: 9
+      pivot: {x: 0.54189944, y: 0.5048309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Bakery
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 64
+        width: 241
+        height: 222
+      alignment: 9
+      pivot: {x: 0.49377593, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Church
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 210
+        height: 266
+      alignment: 9
+      pivot: {x: 0.50238097, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-HaciendaLaMarqueza
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 852
+        width: 185
+        height: 209
+      alignment: 9
+      pivot: {x: 0.48918918, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Lago la Paz
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1242
+        width: 821
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49695495, y: 0.50619835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Pub
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1233
+        width: 217
+        height: 163
+      alignment: 9
+      pivot: {x: 0.5092166, y: 0.5705522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-Store
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 775
+        width: 324
+        height: 201
+      alignment: 9
+      pivot: {x: 0.50308645, y: 0.52487564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-TiendaElBuenVivir
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 329
+        width: 310
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5048387, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Pueblo-TownHall
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 978
+        width: 315
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48854962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RiceWithBeans
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 908
+        width: 194
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Soup
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 768
+        width: 170
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48188406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tabla nombre
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1206
+        width: 232
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5069444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TileNormal
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 145
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TilePlowed
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 761
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TsiunaFruit
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1049
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: TsiunaSeed
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 84
+        width: 56
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5967742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Water
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 364
+        width: 132
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Watering_Can
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1063
+        width: 202
+        height: 168
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.4940476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Watering_Can_Gold
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1036
+        width: 202
+        height: 168
+      alignment: 9
+      pivot: {x: 0.490099, y: 0.4940476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb5925d50cacf514b8446dc883b8b032
+timeCreated: 1517724193
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plantPrefab: {fileID: 1912050515173476, guid: 51e8fc333c472481b90301a1bdffee29,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

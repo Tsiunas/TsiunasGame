@@ -1,0 +1,1108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Don Ernesto
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 6b8a65ffbc42d42adbdc561285e1bc1a, type: 3}
+  id: PNJ_DON ERNESTO
+  nombre: Don Ernesto
+  situaciones:
+  - id: SIT_CERO_CAMBIOS
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114274772663529850}
+      - {fileID: 114980626864827150}
+      - {fileID: 114903748865848476}
+      - {fileID: 114237334993678456}
+      - {fileID: 114390145054781998}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_2_PONER_BANDERA
+      lineas:
+      - {fileID: 114167757815293112}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_3_PAGAR
+      lineas:
+      - {fileID: 114199281310653332}
+      - {fileID: 114276751510901212}
+      - {fileID: 114108874337572740}
+      - {fileID: 114417903196813024}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_4_PEDIR_REGADERA
+      lineas:
+      - {fileID: 114793987368231410}
+      - {fileID: 114285990074211454}
+      actuarAlFinalizar: 1
+      actuacion: PonerBandera
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_5_DEFENDER_DM
+      lineas:
+      - {fileID: 114037225656188934}
+      - {fileID: 114897760282708372}
+      - {fileID: 114235021641325288}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_6_RETAR
+      lineas:
+      - {fileID: 114697634284799710}
+      - {fileID: 114719849522304636}
+      - {fileID: 114064514945366052}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_7_ACONSEJAR
+      lineas:
+      - {fileID: 114730472907297906}
+      - {fileID: 114158914393756866}
+      - {fileID: 114661796906697126}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_8_CALLADITA
+      lineas:
+      - {fileID: 114913316144898672}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_9_NEGOCIAR
+      lineas:
+      - {fileID: 114818345682002050}
+      - {fileID: 114696141020120770}
+      actuarAlFinalizar: 0
+      actuacion: Irse
+      encolaIntervencionAlTerminar: 1
+      idIntervencionAEncolarAlTerminar: INT_13_IRSE
+    - id: INT_10_INTEGRIDAD
+      lineas:
+      - {fileID: 114004785862098068}
+      - {fileID: 114203025633563574}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 1
+      idIntervencionAEncolarAlTerminar: INT_13_IRSE
+    - id: INT_11_VAYASE
+      lineas:
+      - {fileID: 114512315468335406}
+      - {fileID: 114134514243966096}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 1
+      idIntervencionAEncolarAlTerminar: INT_13_IRSE
+    - id: INT_12_FINAL
+      lineas:
+      - {fileID: 114300919498306608}
+      - {fileID: 114295818568479682}
+      - {fileID: 114499785315060112}
+      actuarAlFinalizar: 1
+      actuacion: Final
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_13_IRSE
+      lineas:
+      - {fileID: 114129875009888424}
+      actuarAlFinalizar: 1
+      actuacion: Irse
+      encolaIntervencionAlTerminar: 1
+      idIntervencionAEncolarAlTerminar: INT_12_FINAL
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "La mujer de un verdadero hombre no debe trabajar fuera de casa, \xE9l
+      debe ser capaz de mantener a su familia."
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "\xBFAh entonces usted es de esas personas que promueven que las mujeres
+      se manejen solas?"
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: Gracias por poner la bandera de "Cero Cambios" en su granja.
+  - audio: {fileID: 0}
+    texto: "Venga para ac\xE1 cuando quiera. Siempre habr\xE1 buen trato para usted
+      en la Hacienda"
+  estadoMachismo: 1
+  mensajeMamaTule: "Menospreciar el trabajo de las mujeres no s\xF3lo vulnera sus
+    derechos, genera un retraso en toda la comunidad. Unidos e iguales siempre ser\xE1n
+    m\xE1s fuertes."
+  textoFlamado: "El machismo no s\xF3lo afecta a las mujeres, como hombres tambi\xE9n
+    cargamos con sus estereotipos absurdos. No debo ser el \xFAnico proveedor de mi
+    familia."
+--- !u!114 &114004785862098068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Tiene raz\xF3n. Ernesto, usted es un violento y todo mundo debe saberlo.\r"
+  - audio: {fileID: 0}
+    texto: "Hay personas y entidades que me pueden defender. S\xE9palo. \xA1Nunca
+      m\xE1s me volver\xE1 a levantar la mano!\r"
+--- !u!114 &114018509950320920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_10_INTEGRIDAD
+--- !u!114 &114022274757396442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_4_PEDIR_REGADERA
+--- !u!114 &114037225656188934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFQu\xE9 le puede pasar?"
+--- !u!114 &114060274268710230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON ERNESTO
+--- !u!114 &114064514945366052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 3LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_3
+  opciones:
+  - sentencia: Bueno
+    consecuencias:
+    - {fileID: 114223722167531464}
+    - {fileID: 114887433345247526}
+  - sentencia: "Aconsejar a Do\xF1a Margarita"
+    consecuencias:
+    - {fileID: 114843923959662468}
+    - {fileID: 114890678869174704}
+    - {fileID: 114075187665438178}
+  pregunta: Si deja de molestar le regalo la regadera
+--- !u!114 &114075187665438178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON ERNESTO
+--- !u!114 &114108874337572740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: Ya te he dicho mujer que no te metas en los negocios.
+  - audio: {fileID: 0}
+    texto: "Sino, ya sab\xE9s lo que te puede pasar..."
+--- !u!114 &114129875009888424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Me voy, pero sabr\xE1n de m\xED."
+--- !u!114 &114134514243966096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Gente sucia como usted, est\xE1 trayendo estas ideas a nuestro pueblo."
+--- !u!114 &114158914393756866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFUsted cree? \xBFQu\xE9 me recomienda?"
+--- !u!114 &114167757815293112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Se ve que usted es una persona razonable... se merece la regadera.
+--- !u!114 &114199281310653332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Bueno, en ese caso, la regadera vale 1500 monedas de oro
+--- !u!114 &114203025633563574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Gente sucia como usted, est\xE1 trayendo estas ideas a nuestro pueblo.\r"
+--- !u!114 &114219821491882676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_MARGARITA
+--- !u!114 &114223722167531464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DON ERNESTO
+--- !u!114 &114235021641325288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 3LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_3
+  opciones:
+  - sentencia: Pedir la regadera
+    consecuencias:
+    - {fileID: 114022274757396442}
+  - sentencia: Retar a Don Ernesto
+    consecuencias:
+    - {fileID: 114946226513583062}
+    - {fileID: 114060274268710230}
+  - sentencia: "Aconsejar a Do\xF1a Margarita"
+    consecuencias:
+    - {fileID: 114817885691885854}
+    - {fileID: 114696757565141838}
+    - {fileID: 114975051162455322}
+  pregunta: "Nada que a usted le importe\u2026"
+--- !u!114 &114235368048959328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_3_PAGAR
+--- !u!114 &114237334993678456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_4
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Calla mujer! Est\xE1 hablando tu esposo."
+  - audio: {fileID: 0}
+    texto: "Estoy muy disgustado con el comportamiento del pueblo en mi ausencia,
+      muchas personas est\xE1n promoviendo que las mujeres pierdan sus valores."
+  - audio: {fileID: 0}
+    texto: "Buscan que salgan de sus casas, abandonando sus obligaciones en el hogar
+      y hasta les contestan a sus maridos, quieren tener dinero y no s\xE9 cu\xE1ntas
+      barbaridades m\xE1s."
+  - audio: {fileID: 0}
+    texto: "Necesitamos retornar el orden a la comunidad. Ay\xFAdeme izando la bandera
+      de Cero cambios en su granja y tendr\xE1 gratis una regadera de oro."
+--- !u!114 &114248415083251728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_DON ERNESTO
+--- !u!114 &114274772663529850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Buenos d\xEDas! La hacienda La Marquesa es gustosa de recibir visitantes.
+      \xBFQu\xE9 se le ofrece?"
+--- !u!114 &114276751510901212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Pero amor... apenas est\xE1 comenzando con su granja y es buena persona."
+  - audio: {fileID: 0}
+    texto: Suele repartir Tsiunas a la gente
+--- !u!114 &114280884560336802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 0
+  varAModificar: 0
+--- !u!114 &114283480853356622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_MARGARITA
+--- !u!114 &114285990074211454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "S\xED, pero me asegurar\xE9 de poner mi bandera en su granja"
+--- !u!114 &114295818568479682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: Agradezca a MamaTule y sus consejos
+--- !u!114 &114300919498306608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: Gracias veci, es usted una persona consciente
+  - audio: {fileID: 0}
+    texto: "Me ha hecho ver qu\xE9 soy valiosa y que nadie puede pasar por encima
+      de mis derechos"
+--- !u!114 &114384915989106254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_8_CALLADITA
+--- !u!114 &114390145054781998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 5LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_5
+  opciones:
+  - sentencia: "\xA1Cuente con ello! "
+    consecuencias:
+    - {fileID: 114649719877502124}
+    - {fileID: 114283480853356622}
+    - {fileID: 114564694785755136}
+    - {fileID: 114810995196671668}
+    - {fileID: 114424365753185830}
+  - sentencia: "Pagar\xE9 por la regadera."
+    consecuencias:
+    - {fileID: 114235368048959328}
+  pregunta: "Necesitamos retornar el orden a la comunidad. Ay\xFAdeme izando la bandera
+    de Cero cambios en su granja y tendr\xE1 gratis una regadera de oro."
+--- !u!114 &114406331801576118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_11_VAYASE
+--- !u!114 &114417903196813024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 4LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_4
+  opciones:
+  - sentencia: Pedir la regadera
+    consecuencias:
+    - {fileID: 114550658993624064}
+  - sentencia: Indagar sobre esa amenaza
+    consecuencias:
+    - {fileID: 114908666921797620}
+  pregunta: "Sino, ya sab\xE9s lo que te puede pasar..."
+--- !u!114 &114424365753185830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 5CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_2_PONER_BANDERA
+--- !u!114 &114462932662167930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 2CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON ERNESTO
+  actuacion: DMargarita_AErnesto
+--- !u!114 &114499785315060112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: Es cierto, mire para que siga repartiendo los mensajes de MamaTule
+  - audio: {fileID: 0}
+    texto: Le regalo la regadera de oro
+--- !u!114 &114512315468335406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "V\xE1yase Ernesto. Usted no me merece como esposa. \r\n\xA1Yo valgo mucho!\r"
+--- !u!114 &114550658993624064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_4_PEDIR_REGADERA
+--- !u!114 &114563858449252918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 2CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON ERNESTO
+  actuacion: DMargarita_AErnesto
+--- !u!114 &114564694785755136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 3CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON ERNESTO
+  actuacion: PonerBandera
+--- !u!114 &114649719877502124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 3
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114661796906697126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 3LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_3
+  opciones:
+  - sentencia: "Qu\xE9dese calladita"
+    consecuencias:
+    - {fileID: 114384915989106254}
+    - {fileID: 114248415083251728}
+    - {fileID: 114219821491882676}
+    - {fileID: 114722799173432666}
+  - sentencia: Que ud. Puede negociar
+    consecuencias:
+    - {fileID: 114994342360363030}
+    - {fileID: 114563858449252918}
+  - sentencia: Que respete su integridad
+    consecuencias:
+    - {fileID: 114018509950320920}
+    - {fileID: 114462932662167930}
+  - sentencia: "D\xEDgale que se vaya"
+    consecuencias:
+    - {fileID: 114406331801576118}
+    - {fileID: 114815784568569624}
+  pregunta: "\xBFUsted cree? \xBFQu\xE9 me recomienda?"
+--- !u!114 &114696141020120770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: '...'
+--- !u!114 &114696757565141838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_MARGARITA
+--- !u!114 &114697634284799710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFQu\xE9 le pasa?! Respete a su esposa, \xA1ella tiene derechos!"
+--- !u!114 &114719849522304636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: Mire, estos son problemas de pareja, privados.
+  - audio: {fileID: 0}
+    texto: Si deja de molestar le regalo la regadera
+--- !u!114 &114722799173432666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 4CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON ERNESTO
+  actuacion: DMargarita_AErnesto
+--- !u!114 &114730472907297906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Esto no est\xE1 bien Do\xF1a Margarita. No est\xE1 bien que la traten
+      as\xED..."
+--- !u!114 &114777836930836004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 4COI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114793987368231410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xBFMe regala la regadera?"
+--- !u!114 &114810995196671668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 4COI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 4
+  isGold: 1
+--- !u!114 &114815784568569624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 2CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_DON ERNESTO
+  actuacion: DMargarita_AErnesto
+--- !u!114 &114817885691885854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_7_ACONSEJAR
+--- !u!114 &114818345682002050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Tiene raz\xF3n. Ernesto, yo tambi\xE9n soy due\xF1a de esta Hacienda"
+  - audio: {fileID: 0}
+    texto: "De aqu\xED en adelante voy a administrarla tambi\xE9n, te guste o no."
+--- !u!114 &114843923959662468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_7_ACONSEJAR
+--- !u!114 &114887433345247526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_4_PEDIR_REGADERA
+--- !u!114 &114890678869174704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_MARGARITA
+--- !u!114 &114897760282708372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Nada que a usted le importe\u2026"
+--- !u!114 &114903748865848476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Buenos d\xEDas, recuerdo que su \xFAltima visi..."
+--- !u!114 &114908666921797620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_5_DEFENDER_DM
+--- !u!114 &114913316144898672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_MARGARITA
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Tiene raz\xF3n, as\xED me va mejor..."
+--- !u!114 &114946226513583062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_6_RETAR
+--- !u!114 &114975051162455322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_DON ERNESTO
+--- !u!114 &114980626864827150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: Necesito fortalecer el riego de mis cultivos con una regadera de oro.
+--- !u!114 &114994342360363030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 1CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_9_NEGOCIAR

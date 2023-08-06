@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b957e21e4f342fa8929c511724cc64, type: 3}
+  m_Name: Watering_Can
+  m_EditorClassIdentifier: 
+  imagen: {fileID: 21300534, guid: 223a56658cc1248f2a787ad39186ad2a, type: 3}
+  imagenOro: {fileID: 21300596, guid: 223a56658cc1248f2a787ad39186ad2a, type: 3}
+  nombre: Regadera
+  tipo: 3
+  precio: 60
+  esProductoDeOro: 0

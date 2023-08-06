@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: e6ed52ccb3003458ba4df9ad1bd710a2
+timeCreated: 1517951346
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 11_granja__Hierba_04_copia.png
+    100002: Armature
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.002
+    100010: Bone.003
+    100012: Bone.004
+    100014: Bone.005
+    100016: Bone.006
+    100018: Bone.007
+    100020: Bone.007_end
+    100022: Bone.008
+    100024: Bone.009
+    100026: Bone.010
+    100028: Bone.011
+    100030: Bone.011_end
+    100032: Bone.012
+    100034: Bone.013
+    100036: Bone.014
+    100038: Bone.015
+    100040: Bone.016
+    100042: Bone.016_end
+    100044: Bone.017
+    100046: Bone.018
+    100048: Bone.019
+    100050: Bone.020
+    100052: Bone.020_end
+    100054: Bone.021
+    100056: Bone.022
+    100058: Bone.023
+    100060: Bone.024
+    100062: Bone.025
+    100064: Bone.026
+    100066: Bone.026_end
+    100068: Bone.027
+    100070: Bone.028
+    100072: Bone.028_end
+    100074: Bone.029
+    100076: Bone.029_end
+    100078: Bone.030
+    100080: Bone.030_end
+    100082: Bone.031
+    100084: Bone.032
+    100086: Bone.032_end
+    100088: Bone.033
+    100090: Bone.033_end
+    100092: Bone.034
+    100094: Bone.035
+    100096: Bone.035_end
+    100098: Bone.036
+    100100: Bone.037
+    100102: Bone.037_end
+    100104: Bone.038
+    100106: Bone.038_end
+    100108: //RootNode
+    400000: 11_granja__Hierba_04_copia.png
+    400002: Armature
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.002
+    400010: Bone.003
+    400012: Bone.004
+    400014: Bone.005
+    400016: Bone.006
+    400018: Bone.007
+    400020: Bone.007_end
+    400022: Bone.008
+    400024: Bone.009
+    400026: Bone.010
+    400028: Bone.011
+    400030: Bone.011_end
+    400032: Bone.012
+    400034: Bone.013
+    400036: Bone.014
+    400038: Bone.015
+    400040: Bone.016
+    400042: Bone.016_end
+    400044: Bone.017
+    400046: Bone.018
+    400048: Bone.019
+    400050: Bone.020
+    400052: Bone.020_end
+    400054: Bone.021
+    400056: Bone.022
+    400058: Bone.023
+    400060: Bone.024
+    400062: Bone.025
+    400064: Bone.026
+    400066: Bone.026_end
+    400068: Bone.027
+    400070: Bone.028
+    400072: Bone.028_end
+    400074: Bone.029
+    400076: Bone.029_end
+    400078: Bone.030
+    400080: Bone.030_end
+    400082: Bone.031
+    400084: Bone.032
+    400086: Bone.032_end
+    400088: Bone.033
+    400090: Bone.033_end
+    400092: Bone.034
+    400094: Bone.035
+    400096: Bone.035_end
+    400098: Bone.036
+    400100: Bone.037
+    400102: Bone.037_end
+    400104: Bone.038
+    400106: Bone.038_end
+    400108: //RootNode
+    4300000: 11_granja__Hierba_04_copia.png
+    7400000: Idle
+    7400002: Armature|Idle
+    9500000: //RootNode
+    13700000: 11_granja__Hierba_04_copia.png
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11_granja__Hierba_04_copia.png
+    second: {fileID: 2100000, guid: 67dfd12b29eef4a30b94b5c3a2ca1c49, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

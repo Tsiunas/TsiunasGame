@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Silvana
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: 491ef653481f744e7870031514c7364a, type: 3}
+  id: PNJ_SILVANA
+  nombre: Silvana
+  situaciones:
+  - id: SIT_
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114570754510157386}
+      - {fileID: 114912736603300258}
+      - {fileID: 114969297480592302}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: Puede arrastrar sus semillas y frutos a los comerciantes para ganar dinero
+      con ellos
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: Las mujeres tenemos doble carga de trabajo y debemos aceptarlo.
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Por usted comprendo, que si ambos trabajamos fuera de casa tambi\xE9n
+      en la casa debemos repartirnos las tareas del hogar."
+  - audio: {fileID: 0}
+    texto: "Por usted comprendo, que si ambos trabajamos fuera de casa tambi\xE9n
+      en la casa debemos repartirnos las tareas del hogar."
+  estadoMachismo: 1
+  mensajeMamaTule: "Una de las raices de la desigualdad entre hombres y mujeres parte
+    de no repartir el trabajo dom\xE9stico."
+  textoFlamado: "Tengo un puesto p\xFAblico y adem\xE1s me ocupo sola de las tareas
+    domesticas. \xA1Voy a conversar con mi marido para repartirlas!"
+--- !u!114 &114570754510157386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Buenos d\xEDas! La alcald\xEDa siempre a su servicio. \xBFEn qu\xE9
+      puedo ayudarle?"
+--- !u!114 &114912736603300258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Quisiera saber c\xF3mo puedo vender mis cultivos"
+--- !u!114 &114969297480592302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: Puede arrastrar sus semillas y frutos a los comerciantes para ganar dinero
+      con ellos

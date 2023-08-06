@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Margarita
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: ff679d10a222c419ab67348a6532cf08, type: 3}
+  id: PNJ_MARGARITA
+  nombre: Margarita
+  situaciones:
+  - id: SIT_
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114221774007853622}
+      - {fileID: 114467720934982380}
+      - {fileID: 114934326137553532}
+      - {fileID: 114709935487662054}
+      - {fileID: 114214694442622998}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  - id: SIT_SEGUNDO_HITO
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114263678863858178}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 1
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "Mejor espere que venga mi marido, \xE9l es el que sabe de negocios; pregunte
+      en \"El Buen Vivir\""
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: Veci... Es mejor que hablemos de negocios para no alterar a mi marido
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: Gracias veci por ser una pesona comprensiva
+  - audio: {fileID: 0}
+    texto: "Usted tiene raz\xF3n, la mujer no tiene porqu\xE9 depender de su marido."
+  estadoMachismo: 1
+  mensajeMamaTule: "\xA1Las mujeres tienen derecho a participar en las decisiones
+    econ\xF3micas y administrar los negocios familiares al igual que los hombres!"
+  textoFlamado: "La autonom\xEDa econ\xF3mica de las mujeres es una de las bases para
+    la prevenci\xF3n de violencia basada en g\xE9nero."
+--- !u!114 &114110003275196138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Pregunte en "El Buen Vivir"
+--- !u!114 &114214694442622998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 5LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_5
+  speeches:
+  - audio: {fileID: 0}
+    texto: "No ser\xE1 posible por ahora, mi esposo no se encuentra y tienes que negociar
+      con \xE9l"
+  - audio: {fileID: 0}
+    texto: Pregunte en otra parte. Tal vez en "El Buen Vivir"
+--- !u!114 &114221774007853622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Buenas tardes veci, le deseo buena fortuna para su granja \xBFNecesita
+      algo?"
+--- !u!114 &114263678863858178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Buenos d\xEDas..."
+  - audio: {fileID: 0}
+    texto: "(Do\xF1a Margarita evita mirarte a los ojos)"
+--- !u!114 &114467720934982380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Muchas gracias! Necesito una regadera para echar agua a mi cultivo
+      de tsiunas"
+--- !u!114 &114709935487662054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: Puedo ofrecerle dinero o trabajo a cambio de una regadera
+--- !u!114 &114934326137553532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_3
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Tenemos algunas que podr\xEDamos vender en casa"

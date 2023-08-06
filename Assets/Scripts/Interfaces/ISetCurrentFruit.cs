@@ -1,0 +1,4 @@
+﻿interface ISetCurrentFruit
+{
+    Fruit SetCurrentFruit();
+}

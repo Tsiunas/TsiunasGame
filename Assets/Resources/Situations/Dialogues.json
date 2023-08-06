@@ -1,0 +1,313 @@
+{
+  "situations": [
+    {
+      "dialogues": [
+        {
+          "type": 2,
+          "character": "MamaTule",
+          "conversation": "¡Hola! Mi nombre es <color=#a52a2aff><b>MamaTule</b></color> un viejo árbol Jandy. ¿Cuál es tu nombre?",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Bienvenida sea tu presencia, PJ, a la granja de Tsiunas.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "La Tsiunas son frutos mágicos que promueven la armonía y el respeto en quien los consume.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Tu tarea será <color=#a52a2aff>sembrar y cosechar tsiunas</color> para repartir mis mensajes de igualdad",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "<size=18><b><color=#008000ff>Toca la planta</color></b></size> de Tsiunas para cosechar sus frutos y sus semillas.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "La planta nos ha regalado algunas semillas y frutos. <size=18><b><color=#008000ff>Arrástra las semillas</color></b></size> al terreno arado para plantarlas.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "PJ, recuerda que las plantas de Tsiunas son un regalo mágico y valioso de la naturaleza. Sin embargo, estas plantas pueden marchitarse si no se cosechan a tiempo y los frutos se perderán. Entonces, no podrán ser utilizados para difundir los mensajes de igualdad y armonía que te he encomendado.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Así que asegúrate de cosechar los frutos cuando la planta este lista para que puedas cumplir con tu tarea y ayudar a promover la armonía y el respeto.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Necesitas arar el prado para poder cultivar más Tsiunas.\nConsigue un <color=#a52a2aff>AZADÓN</color> para preparar la tierra de tu cultivo.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Presiona el ícono de la puerta para ir al pueblo.\nAsegúrate de promover allí el respeto y la igualdad para dar mayor prosperidad a tu granja.",
+          "launch_event": true
+        }
+      ]
+    },
+    {
+      "dialogues": [
+        {
+          "type": 0,
+          "character": "Yurani",
+          "conversation": "¡Buenos días! ¡En La tienda de Don Jorge encuentras todo al mejor precio!",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Es importante que vayas a la tienda de Don Jorge para comprar comida y herramientas para cuidar tu cultivo.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Si tienes semillas o frutos extra, puedes venderlos en la tienda de Don Jorge y ganar más dinero.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "Yurani",
+          "conversation": "¡Los productos de Don Jorge son los mejores de la ciudad! ",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "Don Jorge",
+          "conversation": "¡Disculpe usted, dejarle negociando con una mujer. Déjeme enmendar mi error rebajando el costo de su producto!",
+          "launch_event": true
+        },
+        {
+          "type": 1,
+          "character": "Tu",
+          "conversation": "Le ofrezco el azadón por 15 monedas",
+          "launch_event": false,
+          "options": ["Comprar", "No Comprar"]
+        },
+        {
+          "type": 3,
+          "character": "Don Jorge",
+          "conversation": "",
+          "launch_event": false,
+          "answers_options": [
+            "Muy bien mi llave, los negocios con un hombre funcionan mejor. ",
+            "¡Ya decía yo, las mujeres traen mala suerte a los negocios!"
+          ]
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Es una buena oportunidad para entregar mis mensajes a Don Jorge. <size=18><b><color=#008000ff>Arrastra una Tsiuna a Don Jorge</color></b></size>",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Don Jorge: Debes respetar a tus empleados y empleadas independientemente de su género.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Parece que Don Jorge tiene algo que decir. Habla con él.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "Don Jorge",
+          "conversation": "Aquel mensaje que me diste con las Tsiunas, puede que tenga razón... ¿Tienes más?",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Aún tenemos otra Tsiuna. <size=18><b><color=#008000ff>Arrástrala a Don Jorge</color></b></size> para ver si aprende de una vez por todas. ",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "Don Jorge",
+          "conversation": "¿Sabe qué? MamaTule tiene razón, sus mensajes me han hecho comprender lo mal que he tratado a mi empleada...",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "Don Jorge",
+          "conversation": "Gracias por las Tsiunas, llévese el azadón en agradecimiento y si necesita dinero puede arrastrarme los frutos o semillas que tenga, yo se los compro.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "¡Muy bien, PJ! En el futuro te encontrarás con personas como Don Jorge que pueden necesitar más de una Tsiuna para entender mi mensaje. Regresa a la granja para continuar con tu misión.",
+          "launch_event": true
+        }
+      ]
+    },
+    {
+      "dialogues": [
+        {
+          "type": 0,
+          "character": "Dayami",
+          "conversation": "¡Buenos días! soy Dayami.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "Dayami",
+          "conversation": "¿Buscas un AZADÓN?\n Aunque este es de segunda mano, está en muy buen estado.",
+          "launch_event": true
+        },
+        {
+          "type": 1,
+          "character": "Dayami",
+          "conversation": "¿Te gustaría comprar el AZADÓN? precio 20 monedas",
+          "launch_event": true,
+          "options": ["Comprar", "No Comprar"]
+        },
+        {
+          "type": 3,
+          "character": "Dayami",
+          "conversation": "",
+          "launch_event": true,
+          "answers_options": [
+            "¡Gracias por tu compra! Lleva algunas semillas de maíz de cuenta de la casa.",
+            "¡No dudes en regresar si necesitas algo!"
+          ]
+        },
+        {
+          "type": 0,
+          "character": "Dayami",
+          "conversation": "¡Vuelve pronto!.",
+          "launch_event": true
+        }
+      ]
+    },
+    {
+      "dialogues": [
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Estoy feliz porque has defendido los derechos de las mujeres y has transformado una vida regalando Tsiunas.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Este es el círculo de la armonía. Cada vez que transformes una vida regalando Tsiunas ganarás una flama de la armonía.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Mira el reloj. Consigue <color=#008000ff>9 FLAMAS DE LA ARMONÍA</color> antes de 30 días y te declararé <color=#a52a2aff>GRAN CORRESPONSABLE.</color>",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Al lado del Círculo de la Armonía, verás un indicador con un estómago que muestra cuánta hambre tiene tu personaje.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Si este indicador llega al mínimo, tu personaje morirá de hambre. Para alimentar a tu personaje, arrastra frutos y comida hasta el estomago.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Recuerda que para conseguir comida, debes sembrar y cosechar Tsiunas en tu granja. También puedes comprar comida en la tienda de Don Jorge en el pueblo.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Selecciona el azadón del panel de herramientas y toca en el prado para arar la tierra.",
+          "launch_event": true
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Además, en el pueblo queremos promover la amistad. Cada persona con el que hables o esté cerca del personaje con el que hables tendrá un nivel de amistad contigo.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Si logras ganarte la amistad de los personajes promoviendo el respeto y la igualdad, ganarás flamas de la armonía, como lo hiciste con Don Jorge. Esto mejorará mi estado y del pueblo en general. Hay diferentes niveles de amistad:",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": " <color=#008000ff>Desdén:</color> Representado con una cara enojada.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": " <color=#008000ff>No le agradas:</color> Representado con un corazón roto.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": " <color=#008000ff>Regular:</color> No se representa con ningún icono.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": " <color=#008000ff>Le caes bien:</color> Representado con una cara feliz.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Es importante que trates de crear un buen ambiente en el pueblo. Asi que trata de hablar con todos y mejorar tu relación con las personas a las que no les agradas dandoles Tsiunas y promoviendo los mensajes de mamá Tule",
+          "launch_event": false
+        },
+
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Ahora que ya te he explicado todo sobre las Tsiunas, tu tarea es promover el respeto y la igualdad en todos los lugares de Pueblo Nuevo",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Además, si te quedas sin semillas de Tsiunas, siempre puedes hablar conmigo para obtener más.",
+          "launch_event": false
+        },
+        {
+          "type": 0,
+          "character": "MamaTule",
+          "conversation": "Finalmente, puedes presionar aquí si tienes alguna duda.",
+          "launch_event": true
+        }
+      ]
+    }
+  ]
+}

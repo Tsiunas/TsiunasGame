@@ -1,0 +1,94 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¡Felicitaciones por llegar al final del juego! ¡Completa nuestro cuestionario y comparte tu experiencia!",
+      "esSoloTexto": true
+    },
+    {
+      "pregunta": "¿Cuántas Flamas de la Armonía lograste encontrar?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Qué te gustaría cambiar de Tsiunas?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Qué fue lo que más te gustó de Tsiunas?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los problemas de Pueblo Nuevo me hicieron reflexionar sobre lo que pasa en mi casa o escuela'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Resolver los problemas de Pueblo Nuevo fue interesante y divertido'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Leí completamente cada uno de los mensajes brindados por MamaTule'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Las reglas del juego son claras'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Necesité poco tiempo para saber cómo funciona el juego'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'No sabía qué hacer en algunas partes del juego'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'La música y los sonidos son agradable'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Puedo sembrar Tsiunas fácilmente'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Puedo alimentarme fácilmente en el juego'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Puedo vender fácilmente'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Puedo dar Tsiunas fácilmente'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Muero muy fácil'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Me gustaría agregar más niveles al juego'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Me gustaría descargar Tsiunas para volverlo a jugar y compartirlo con mis amigos o mi familia'",
+      "respuestas": ["No estoy de acuerdo", "No lo sé", "Estoy de acuerdo"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¡Nos encantaría conocer tus comentarios! Cuéntanos cómo te sentiste y si tienes alguna sugerencia para mejorar.",
+      "respuestas": []
+    }
+  ]
+}

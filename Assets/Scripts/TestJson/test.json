@@ -1,0 +1,23 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es la capital de Francia? asda sda sdasd asd asd asd asd asda sdasd asdjkhaks dhas dkjasdjkasdkjasjkdasldkjahsldkjasd  asdljkahskd jahs d  asjkdas das dlakjsdh asa skdjahsld jkasdwdqwlud qsd asd j",
+        "respuestas": ["París", "Londres", "Madrid", "Berlín"],
+        "respuestaCorrecta": 0
+      },
+      {
+        "pregunta": "¿En qué año se fundó la compañía Apple?",
+        "respuestas": ["1976", "1984", "1991", "2001"],
+        "respuestaCorrecta": 0
+      },
+      {
+        "pregunta": "Dinos tu opinión sobre la aplicación o el juego:",
+        "respuestas": []
+      },{
+        "pregunta": "¿En qué año se fundó la compañía Apple?",
+        "respuestas": ["1976", "1984", "1991", "2001"],
+        "respuestaCorrecta": 0
+      }
+    ]
+  }
+  

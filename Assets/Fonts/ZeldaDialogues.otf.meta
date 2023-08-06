@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 436a32a4c627968489f5e12082dd0f4b
+timeCreated: 1518638068
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FOT-Chiaro Std
+  fontNames:
+  - FOT-Chiaro Std
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

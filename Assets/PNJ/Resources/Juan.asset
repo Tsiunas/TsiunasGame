@@ -1,0 +1,562 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Juan
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: c486ccdc8fa7d4e7da4e31cc0210be96, type: 3}
+  id: PNJ_JUAN
+  nombre: Juan
+  situaciones:
+  - id: SIT_1
+    intervenciones:
+    - id: INT_JUAN_1
+      lineas:
+      - {fileID: 114395021281886858}
+      - {fileID: 114090016570236070}
+      - {fileID: 114150537452262480}
+      - {fileID: 114808825562421840}
+      - {fileID: 114636988842901904}
+      - {fileID: 114323524283606370}
+      - {fileID: 114063920016819950}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_JUAN_2
+      lineas:
+      - {fileID: 114749554313085994}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    - id: INT_JUAN_3
+      lineas:
+      - {fileID: 114536824810686776}
+      - {fileID: 114647938925995300}
+      actuarAlFinalizar: 1
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  - id: SIT_COMPRA
+    intervenciones:
+    - id: INT_1
+      lineas:
+      - {fileID: 114204650390841232}
+      actuarAlFinalizar: 0
+      actuacion: 
+      encolaIntervencionAlTerminar: 0
+      idIntervencionAEncolarAlTerminar: 
+    noConsumir: 0
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "\xA1Mi negocio es comprar al precio justo!"
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "No quisiera que mi hija tuviera amigos como t\xFA. "
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Usted tiene raz\xF3n, hay gente que no sabe tratar a las mujeres con respeto."
+  - audio: {fileID: 0}
+    texto: "Venga amistad. Mis precios siempre ser\xE1n los mejores para ti."
+  estadoMachismo: 2
+  mensajeMamaTule: 
+  textoFlamado: 
+--- !u!114 &114045056872625474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 3LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDD_3
+  speeches: []
+--- !u!114 &114063920016819950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 7LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_7
+  opciones:
+  - sentencia: Esos piropos son una forma vulgar de acercarse a una mujer
+    consecuencias:
+    - {fileID: 114539953146536244}
+    - {fileID: 114884668924852656}
+    - {fileID: 114978259349821966}
+    - {fileID: 114879821274381124}
+    - {fileID: 114099234602000408}
+  - sentencia: "Tiene raz\xF3n usted, a la mujer en casa, nada le pasa"
+    consecuencias:
+    - {fileID: 114413301573391502}
+    - {fileID: 114412708012288634}
+    - {fileID: 114363379004730368}
+    - {fileID: 114111751954771000}
+  pregunta: "Si no les gustan mis piropos, \xBFpara qu\xE9 vienen a mi bar?"
+--- !u!114 &114090016570236070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Claro que s\xED! T\xF3mese una cerveza, yo invito"
+--- !u!114 &114099234602000408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 6CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_JUAN_2
+--- !u!114 &114111751954771000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 4CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: INT_JUAN_3
+--- !u!114 &114130712822074218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 7LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_7
+  speeches: []
+--- !u!114 &114150537452262480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 3LDO
+  m_EditorClassIdentifier: 
+  idPNJ: LDO_3
+  opciones:
+  - sentencia: "\xA1Muchas Gracias, pero no quiero cerveza ahora!"
+    consecuencias:
+    - {fileID: 114784734787090002}
+  - sentencia: "\xA1Muchas gracias! \xA1Qu\xE9 gran detalle!"
+    consecuencias:
+    - {fileID: 114259078583445868}
+    - {fileID: 114412679066824722}
+  pregunta: "\xA1Claro que s\xED! T\xF3mese una cerveza, yo invito"
+--- !u!114 &114204650390841232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: Puedes arrastrarme cosas de tu inventario. Lo que me des, te lo compro
+      a cambio de monedas de oro.
+--- !u!114 &114259078583445868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_JUAN
+--- !u!114 &114323524283606370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 6LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_ANIBAL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Si no les gustan mis piropos, \xBFpara qu\xE9 vienen a mi bar?"
+--- !u!114 &114363379004730368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 3CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJA_PUB_3
+  actuacion: Actuar
+--- !u!114 &114395021281886858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDO
+  m_EditorClassIdentifier: 
+  idPNJ: PJ
+  speeches:
+  - audio: {fileID: 0}
+    texto: Me han dicho que se hacen muy buenas fiestas en este pueblo!
+--- !u!114 &114405782666951450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 3CA
+  m_EditorClassIdentifier: 
+  idPNJ: 
+  actuacion: 
+--- !u!114 &114412679066824722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 2CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJA_PUB_3
+  actuacion: 
+--- !u!114 &114412708012288634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 2CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114413301573391502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 1CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_ANIBAL
+--- !u!114 &114536824810686776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_ANIBAL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1De acuerdo! Si no les gustan mis piropos, mejor que no vengan\n\n"
+  - audio: {fileID: 0}
+    texto: "Adem\xE1s, mis piropos no le hacen da\xF1o a nadie. La casa invita esta
+      noche.\r"
+--- !u!114 &114539953146536244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 1
+  varAModificar: 2
+--- !u!114 &114576508062241406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 3CSB
+  m_EditorClassIdentifier: 
+  cantidad: 0
+  sube: 0
+  varAModificar: 0
+--- !u!114 &114636988842901904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 5LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_5
+  speeches:
+  - audio: {fileID: 0}
+    texto: "Parece que a la chica no le gusta su comentario, hombre An\xEDbal"
+--- !u!114 &114647938925995300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 2LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_2
+  speeches:
+  - audio: {fileID: 0}
+    texto: "No me gustar\xEDa ver que traten as\xED a mi hija, mejor me voy."
+  - audio: {fileID: 0}
+    texto: "Soy comerciante y trabajo en la panader\xEDa"
+  - audio: {fileID: 0}
+    texto: Si tienes frutos para vender, yo te los compro
+--- !u!114 &114749554313085994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 1LDS
+  m_EditorClassIdentifier: 
+  idPNJ: LDS_1
+  speeches:
+  - audio: {fileID: 0}
+    texto: "No me gustar\xEDa ver que traten as\xED a mi hija. Mejor me voy"
+  - audio: {fileID: 0}
+    texto: "T\xFA, puedes vis\xEDtarme en la panader\xEDa."
+  - audio: {fileID: 0}
+    texto: Si tienes frutos para vender, yo te los compro.
+--- !u!114 &114784734787090002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 1CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJA_PUB_3
+  actuacion: 
+--- !u!114 &114807907508123742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 3LDS
+  m_EditorClassIdentifier: 
+  idPNJ: 
+  opciones: []
+  pregunta: 
+--- !u!114 &114808825562421840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70534c4691286b04b99e073e81431ec8, type: 3}
+  m_Name: 4LDS
+  m_EditorClassIdentifier: 
+  idPNJ: PNJ_ANIBAL
+  speeches:
+  - audio: {fileID: 0}
+    texto: "\xA1Mami!, t\xFA con esas curvas y yo sin frenos, pero c\xF3mo est\xE1s
+      de buena."
+--- !u!114 &114818334161390272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10fb6a22f63bd047ae66109fff6a61b, type: 3}
+  m_Name: 4CAI
+  m_EditorClassIdentifier: 
+  tipoItem: 0
+  idItem: 0
+  isGold: 0
+--- !u!114 &114879821274381124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 5CA
+  m_EditorClassIdentifier: 
+  idPNJ: PNJA_PUB_3
+  actuacion: 
+--- !u!114 &114880781018149880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952f5409795409848b63f37fc68791df, type: 3}
+  m_Name: 1CSB
+  m_EditorClassIdentifier: 
+  cantidad: 1
+  sube: 0
+  varAModificar: 2
+--- !u!114 &114884668924852656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 2CSBA
+  m_EditorClassIdentifier: 
+  subir: 0
+  idPNJ: PNJ_ANIBAL
+--- !u!114 &114919390544568476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c06744bf333f14694bf5d9ab11002c, type: 3}
+  m_Name: 3CAI
+  m_EditorClassIdentifier: 
+  idIntervencion: 
+--- !u!114 &114966191027411908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eadf7c2a70c40f4cbff1b42c9008940, type: 3}
+  m_Name: 3CA
+  m_EditorClassIdentifier: 
+  idPNJ: 
+  actuacion: 
+--- !u!114 &114977072482101378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c539a210974a942af935bcbc0fe333, type: 3}
+  m_Name: 7LDO
+  m_EditorClassIdentifier: 
+  idPNJ: 
+  opciones: []
+  pregunta: 
+--- !u!114 &114978259349821966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f41ac8be324f6479e348cc132f06ae, type: 3}
+  m_Name: 3CSBA
+  m_EditorClassIdentifier: 
+  subir: 1
+  idPNJ: PNJ_JUAN

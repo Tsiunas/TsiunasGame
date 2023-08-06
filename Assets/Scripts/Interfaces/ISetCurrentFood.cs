@@ -1,0 +1,4 @@
+﻿interface ISetCurrentFood
+{
+    Food SetCurrentFood();
+}

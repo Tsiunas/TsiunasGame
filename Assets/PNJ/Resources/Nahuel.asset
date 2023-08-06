@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: Nahuel
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 21300000, guid: e913aef2c6c2c4682ab02f49683321c4, type: 3}
+  id: PNJ_NAHUEL
+  nombre: Nahuel
+  situaciones: []
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: "\xA1Un verdadero hombre no se asusta con nada!"
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "Usted es de los que le ense\xF1an a los ni\xF1os a ser ni\xF1itas lloronas"
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "Eso familia, usted si sabe como se cr\xEDa a un var\xF3n"
+  - audio: {fileID: 0}
+    texto: "\xA1Hola Familia! "
+  estadoMachismo: 0
+  mensajeMamaTule: "Es natural sentir miedo, le permiti\xF3 al ser humano sobrevivir
+    a lo desconocido. El miedo no es motivo de verg\xFCenza ni para hombres ni para
+    mujeres; ambos pueden sentirlo."
+  textoFlamado: "Los hombres y mujeres somos diferentes, pero tenemos los mismos derechos.
+    \xA1Debemos caminar hacia la igualdad de g\xE9nero!"

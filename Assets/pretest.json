@@ -1,0 +1,269 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "Estimado/a estudiante: Hoy has participado en una jornada de sensibilización para la prevención de violencias basadas en género desde el ámbito escolar. Por favor, ayúdanos llenando esta encuesta de la manera más crítica y sincera.",
+      "esSoloTexto": true
+    },
+    {
+      "pregunta": "¿Qué edad tienes?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Cómo te identificas en términos de sexo/género?",
+      "respuestas": [
+        "Masculino",
+        "Femenino",
+        "Diverso",
+        "Prefiero no contestar"
+      ]
+    },
+    {
+      "pregunta": "¿Temes sufrir discriminación o violencia por ser hombre o mujer?",
+      "respuestas": ["Sí", "No"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Sabes si en tu institución educativa se realizan actividades de detección, ayuda y/o seguimiento a víctimas de violencia basada en género (VBG)?",
+      "respuestas": ["Sí", "No"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "En caso de que tu institución sí realice ese tipo de actividades, ¿cuáles realiza?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Crees que existen grandes desigualdades entre hombres y mujeres?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Conoces los tipos de violencia contra la mujer?",
+      "respuestas": ["Sí", "No"],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "Si los conoces, ¿cuáles son los tipos de violencia contra la mujer?",
+      "respuestas": []
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los hombres deben darse la oportunidad de ser más expresivos con sus sentimientos y emociones: Ejemplo Llorar sin sentir vergüenza'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Las violencias contra las mujeres es un problema político y social, que se debe prevenir y erradicar para una sana convivencia.'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? '“Los hombres tienen la responsabilidad de ser los proveedores absolutos de la familia”.'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? '“Las mujeres son de la casa, las reinas del hogar, las responsables de la crianza y el cuidado”.'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Se justifica pegarle a una mujer cuando ha sido infiel'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los problemas familiares sólo deben discutirse con miembros de la familia'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los hombres violentos con las mujeres son así porque tienen que hacerse respetar y demostrar quién manda en la casa'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Un verdadero hombre no se la deja montar'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Una mujer debe aguantar la violencia del marido para mantener su familia unida'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Es normal que los hombres no dejan salir sola a su pareja'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los borrachos no saben lo que hacen, por eso violan a las mujeres'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'A veces está bien que los hombres golpeen a sus parejas'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'El que pone la plata manda en la casa'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Está bien que un hombre le diga a la mujer que es inútil, tonta o fea cuando ha hecho algo malo'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Cuando las mujeres trabajan les están quitando oportunidades de empleo a los hombres'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Para ser hombre es preciso ser aguerrido y valiente'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Las mujeres que se visten de manera provocativa se exponen a que las violen'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Si un hombre maltrata a su esposa, otras personas ajenas a la familia deben intervenir'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Las mujeres que siguen con sus parejas después de ser golpeadas es porque les gusta'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Si una mujer no se resiste, realmente no se puede decir que fue violación'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Los hombres son la cabeza del hogar'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    },
+    {
+      "pregunta": "¿Qué tan de acuerdo estás con la siguiente frase? 'Un hombre puede golpear a su mujer si ella no quiere tener sexo con él'",
+      "respuestas": [
+        "Completamente en desacuerdo",
+        "Parcialmente en desacuerdo",
+        "Parcialmente de acuerdo",
+        "Completamente de acuerdo"
+      ],
+      "respuestaCorrecta": 0
+    }
+  ]
+}

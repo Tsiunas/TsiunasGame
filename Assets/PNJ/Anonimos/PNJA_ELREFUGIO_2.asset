@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881fddb8d5b106c4eaa3ac7f5ecf4e40, type: 3}
+  m_Name: PNJA_ELREFUGIO_2
+  m_EditorClassIdentifier: 
+  avatar: {fileID: 0}
+  id: PNJA_ELREFUGIO_2
+  nombre: 
+  situaciones: []
+  esAnonimo: 0
+  speechPorDefecto:
+    audio: {fileID: 0}
+    texto: Puedes usar un martillo para romper las rocas en tu granja
+  speechesPorAmistad:
+  - audio: {fileID: 0}
+    texto: '... (El personaje no quiere hablar, muestra enfado contigo) ...'
+  - audio: {fileID: 0}
+    texto: "Ah, es usted nuevo... Qu\uFFFD fastidio la gente como usted"
+  - audio: {fileID: 0}
+    texto: 
+  - audio: {fileID: 0}
+    texto: "\uFFFDHola de nuevo! \uFFFDMe alegra ver gente con su forma de actuar!"
+  - audio: {fileID: 0}
+    texto: "\uFFFDQu\uFFFD bueno volver a verte!. !Mantengamos nuestra amistad!"
+  estadoMachismo: 1
+  mensajeMamaTule: 

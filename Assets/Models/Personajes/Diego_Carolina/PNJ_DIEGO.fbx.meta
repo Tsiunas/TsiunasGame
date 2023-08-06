@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 8a9c5d61c3bf04aeab0e74b9b8c97a95
+timeCreated: 1517849613
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Anibal_Sprites
+    100002: Armature
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.001_end
+    100010: Bone.002
+    100012: Bone.003
+    100014: Bone.004
+    100016: Bone.005
+    100018: Bone.006
+    100020: Bone.006_end
+    100022: Bone.007
+    100024: Bone.008
+    100026: Bone.009
+    100028: Bone.009_end
+    100030: Bone.010
+    100032: Bone.011
+    100034: Bone.012
+    100036: Bone.012_end
+    100038: Bone.013
+    100040: Bone.014
+    100042: Bone.015
+    100044: Bone.015_end
+    100046: Bone.016
+    100048: Bone.017
+    100050: Bone.017_end
+    100052: Bone.018
+    100054: Bone.019
+    100056: Bone.019_end
+    100058: Edilgardo.psd
+    100060: //RootNode
+    100062: IK_Bone.006
+    100064: IK_Bone.006_end
+    100066: IK_Bone.009
+    100068: IK_Bone.009_end
+    100070: IK_Bone.012
+    100072: IK_Bone.012_end
+    100074: IK_Bone.015
+    100076: IK_Bone.015_end
+    100078: IK_Bone.017
+    400000: Anibal_Sprites
+    400002: Armature
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.001_end
+    400010: Bone.002
+    400012: Bone.003
+    400014: Bone.004
+    400016: Bone.005
+    400018: Bone.006
+    400020: Bone.006_end
+    400022: Bone.007
+    400024: Bone.008
+    400026: Bone.009
+    400028: Bone.009_end
+    400030: Bone.010
+    400032: Bone.011
+    400034: Bone.012
+    400036: Bone.012_end
+    400038: Bone.013
+    400040: Bone.014
+    400042: Bone.015
+    400044: Bone.015_end
+    400046: Bone.016
+    400048: Bone.017
+    400050: Bone.017_end
+    400052: Bone.018
+    400054: Bone.019
+    400056: Bone.019_end
+    400058: Edilgardo.psd
+    400060: //RootNode
+    400062: IK_Bone.006
+    400064: IK_Bone.006_end
+    400066: IK_Bone.009
+    400068: IK_Bone.009_end
+    400070: IK_Bone.012
+    400072: IK_Bone.012_end
+    400074: IK_Bone.015
+    400076: IK_Bone.015_end
+    400078: IK_Bone.017
+    4300000: Edilgardo.psd
+    7400000: Berrinche
+    7400002: Hablar
+    7400004: Idle
+    9500000: //RootNode
+    13700000: Edilgardo.psd
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Edilgardo.psd
+    second: {fileID: 2100000, guid: 9c03680c7036b459698c457e3d1ebc92, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Berrinche
+      takeName: Armature|Berrinche
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hablar
+      takeName: Armature|Hablar
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

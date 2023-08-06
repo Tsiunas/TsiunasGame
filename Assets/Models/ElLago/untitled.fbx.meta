@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 938713ce14a4046ee9675ccd4027db11
+timeCreated: 1514297239
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Caballo_negro.png
+    100002: Capa_1.png
+    100004: Capa_1_copia.png
+    100006: Capa_1_copia_2.png
+    100008: Capa_1_copia_3.png
+    100010: Capa_1_copia_4.png
+    100012: Capa_3.png
+    100014: Capa_4.png
+    100016: Capa_4_copia.png
+    100018: Capa_4_copia_2.png
+    100020: Capa_5.png
+    100022: Capa_6.png
+    100024: Capa_6_copia.png
+    100026: Capa_8.png
+    100028: Capa_9.png
+    100030: Capa_9_copia.png
+    100032: Grass_3.png
+    100034: Grass_3_copia.png
+    100036: //RootNode
+    400000: Caballo_negro.png
+    400002: Capa_1.png
+    400004: Capa_1_copia.png
+    400006: Capa_1_copia_2.png
+    400008: Capa_1_copia_3.png
+    400010: Capa_1_copia_4.png
+    400012: Capa_3.png
+    400014: Capa_4.png
+    400016: Capa_4_copia.png
+    400018: Capa_4_copia_2.png
+    400020: Capa_5.png
+    400022: Capa_6.png
+    400024: Capa_6_copia.png
+    400026: Capa_8.png
+    400028: Capa_9.png
+    400030: Capa_9_copia.png
+    400032: Grass_3.png
+    400034: Grass_3_copia.png
+    400036: //RootNode
+    2300000: Caballo_negro.png
+    2300002: Capa_1.png
+    2300004: Capa_1_copia.png
+    2300006: Capa_1_copia_2.png
+    2300008: Capa_1_copia_3.png
+    2300010: Capa_1_copia_4.png
+    2300012: Capa_3.png
+    2300014: Capa_4.png
+    2300016: Capa_4_copia.png
+    2300018: Capa_4_copia_2.png
+    2300020: Capa_5.png
+    2300022: Capa_6.png
+    2300024: Capa_6_copia.png
+    2300026: Capa_8.png
+    2300028: Capa_9.png
+    2300030: Capa_9_copia.png
+    2300032: Grass_3.png
+    2300034: Grass_3_copia.png
+    3300000: Caballo_negro.png
+    3300002: Capa_1.png
+    3300004: Capa_1_copia.png
+    3300006: Capa_1_copia_2.png
+    3300008: Capa_1_copia_3.png
+    3300010: Capa_1_copia_4.png
+    3300012: Capa_3.png
+    3300014: Capa_4.png
+    3300016: Capa_4_copia.png
+    3300018: Capa_4_copia_2.png
+    3300020: Capa_5.png
+    3300022: Capa_6.png
+    3300024: Capa_6_copia.png
+    3300026: Capa_8.png
+    3300028: Capa_9.png
+    3300030: Capa_9_copia.png
+    3300032: Grass_3.png
+    3300034: Grass_3_copia.png
+    4300000: Capa_3.png
+    4300002: Capa_4_copia.png
+    4300004: Capa_1_copia_3.png
+    4300006: Capa_1_copia_4.png
+    4300008: Capa_4.png
+    4300010: Capa_1_copia_2.png
+    4300012: Capa_4_copia_2.png
+    4300014: Capa_5.png
+    4300016: Capa_1.png
+    4300018: Caballo_negro.png
+    4300020: Capa_1_copia.png
+    4300022: Grass_3.png
+    4300024: Capa_9.png
+    4300026: Grass_3_copia.png
+    4300028: Capa_6.png
+    4300030: Capa_6_copia.png
+    4300032: Capa_8.png
+    4300034: Capa_9_copia.png
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caballo_negro.png
+    second: {fileID: 2100000, guid: 42e0cbb3d78e947e291e3dadbedf997d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_1.png
+    second: {fileID: 2100000, guid: 27d844ebc8edb4c2bab38f1481180182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_1_copia.png
+    second: {fileID: 2100000, guid: 983c617dfe2384ddfbf3ba0bdc6a6cbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_1_copia_2.png
+    second: {fileID: 2100000, guid: 2f334f78cf9874ee9aa4e8fc27048ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_1_copia_3.png
+    second: {fileID: 2100000, guid: 34a090c1942a541bb842149c96e4f338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_1_copia_4.png
+    second: {fileID: 2100000, guid: 1d2117852bf4e49a99ed5e826446cb63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_3.png
+    second: {fileID: 2100000, guid: 31ae28ba0527a4b8a880a7a0d27db2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_4.png
+    second: {fileID: 2100000, guid: 1625a4397649841bdaf45e47c544733d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_4_copia.png
+    second: {fileID: 2100000, guid: 7e71454282ee34ef9854820cca51bd77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_4_copia_2.png
+    second: {fileID: 2100000, guid: f2a7390599b034378b116f3de62bccba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_5.png
+    second: {fileID: 2100000, guid: aac78a1becf014d7aa01270f9b9c0515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_6.png
+    second: {fileID: 2100000, guid: 62f448310f1f74582a4fb9b87fa8bd30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_6_copia.png
+    second: {fileID: 2100000, guid: f1c5ca12543f04b4faf42386d421bd6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_8.png
+    second: {fileID: 2100000, guid: 3b2492dbb9cfb4423816646ff58a9e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_9.png
+    second: {fileID: 2100000, guid: 923df4fc35e4c410c8851c95db935e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capa_9_copia.png
+    second: {fileID: 2100000, guid: c98a4e74a6b6b4192975ba8429117e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_3.png
+    second: {fileID: 2100000, guid: d7a136471651341dca242542b4c4de6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_3_copia.png
+    second: {fileID: 2100000, guid: e423aa35d5ddd4ba2808f474ca784243, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
